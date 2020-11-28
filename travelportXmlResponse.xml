@@ -1,0 +1,574 @@
+<Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+	<Body>
+		<LowFareSearchRsp TraceId="test-request" TransactionId="DFBF96340A075719E3DC02BD59E75E2A" ResponseTime="903" DistanceUnits="MI" CurrencyType="BDT" xmlns:air="http://www.travelport.com/schema/air_v47_0">
+			<FlightDetailsList>
+				<FlightDetails Key="VK0a+WZc1BKA/MwyUDAAAA==" Origin="DAC" Destination="CMB" DepartureTime="2021-02-06T13:00:00.000+06:00" ArrivalTime="2021-02-06T15:55:00.000+05:30" FlightTime="205" TravelTime="650" Equipment="332" />
+				<FlightDetails Key="VK0a+WZc1BKABNwyUDAAAA==" Origin="CMB" Destination="DXB" DepartureTime="2021-02-06T18:35:00.000+05:30" ArrivalTime="2021-02-06T21:50:00.000+04:00" FlightTime="285" TravelTime="650" Equipment="332" DestinationTerminal="1" />
+				<FlightDetails Key="VK0a+WZc1BKAXNwyUDAAAA==" Origin="CMB" Destination="DXB" DepartureTime="2021-02-07T12:55:00.000+05:30" ArrivalTime="2021-02-07T16:10:00.000+04:00" FlightTime="285" TravelTime="1750" Equipment="320" DestinationTerminal="1" />
+				<FlightDetails Key="VK0a+WZc1BKAdNwyUDAAAA==" Origin="DAC" Destination="CGP" DepartureTime="2021-02-06T12:30:00.000+06:00" ArrivalTime="2021-02-06T13:15:00.000+06:00" FlightTime="45" TravelTime="809" Equipment="738" OriginTerminal="1" DestinationTerminal="1" />
+				<FlightDetails Key="VK0a+WZc1BKAfNwyUDAAAA==" Origin="CGP" Destination="DXB" DepartureTime="2021-02-06T20:00:00.000+06:00" ArrivalTime="2021-02-06T23:59:00.000+04:00" FlightTime="359" TravelTime="809" Equipment="788" OriginTerminal="1" DestinationTerminal="3" />
+				<FlightDetails Key="VK0a+WZc1BKAtNwyUDAAAA==" Origin="DAC" Destination="CCU" DepartureTime="2021-02-06T15:45:00.000+06:00" ArrivalTime="2021-02-06T16:10:00.000+05:30" FlightTime="55" TravelTime="1225" Equipment="737" OriginTerminal="2" DestinationTerminal="2" />
+				<FlightDetails Key="VK0a+WZc1BKAvNwyUDAAAA==" Origin="CCU" Destination="DEL" DepartureTime="2021-02-06T21:55:00.000+05:30" ArrivalTime="2021-02-07T00:20:00.000+05:30" FlightTime="145" TravelTime="1225" Equipment="737" OriginTerminal="2" DestinationTerminal="3" />
+				<FlightDetails Key="VK0a+WZc1BKAxNwyUDAAAA==" Origin="DEL" Destination="DXB" DepartureTime="2021-02-07T07:45:00.000+05:30" ArrivalTime="2021-02-07T10:10:00.000+04:00" FlightTime="235" TravelTime="1225" Equipment="737" OriginTerminal="3" DestinationTerminal="1" />
+				<FlightDetails Key="VK0a+WZc1BKAEOwyUDAAAA==" Origin="DAC" Destination="IST" DepartureTime="2021-02-06T22:50:00.000+06:00" ArrivalTime="2021-02-07T05:10:00.000+03:00" FlightTime="560" TravelTime="1700" Equipment="333" />
+				<FlightDetails Key="VK0a+WZc1BKAGOwyUDAAAA==" Origin="IST" Destination="DXB" DepartureTime="2021-02-07T19:45:00.000+03:00" ArrivalTime="2021-02-08T01:10:00.000+04:00" FlightTime="265" TravelTime="1700" Equipment="77W" DestinationTerminal="1" />
+				<FlightDetails Key="VK0a+WZc1BKAgOwyUDAAAA==" Origin="SAW" Destination="DXB" DepartureTime="2021-02-07T10:15:00.000+03:00" ArrivalTime="2021-02-07T15:25:00.000+04:00" FlightTime="250" TravelTime="1115" Equipment="734" DestinationTerminal="1" />
+				<FlightDetails Key="VK0a+WZc1BKAmOwyUDAAAA==" Origin="DAC" Destination="DOH" DepartureTime="2021-02-06T18:50:00.000+06:00" ArrivalTime="2021-02-06T22:05:00.000+03:00" FlightTime="375" TravelTime="1320" Equipment="77W" />
+				<FlightDetails Key="VK0a+WZc1BKAoOwyUDAAAA==" Origin="DOH" Destination="KWI" DepartureTime="2021-02-07T08:10:00.000+03:00" ArrivalTime="2021-02-07T09:40:00.000+03:00" FlightTime="90" TravelTime="1320" Equipment="359" DestinationTerminal="1" />
+				<FlightDetails Key="VK0a+WZc1BKAqOwyUDAAAA==" Origin="KWI" Destination="DXB" DepartureTime="2021-02-07T12:15:00.000+03:00" ArrivalTime="2021-02-07T14:50:00.000+04:00" FlightTime="95" TravelTime="1320" Equipment="320" OriginTerminal="5" DestinationTerminal="3" />
+				<FlightDetails Key="VK0a+WZc1BKAJPwyUDAAAA==" Origin="DOH" Destination="KWI" DepartureTime="2021-02-07T02:30:00.000+03:00" ArrivalTime="2021-02-07T04:00:00.000+03:00" FlightTime="90" TravelTime="1320" Equipment="77W" DestinationTerminal="1" />
+			</FlightDetailsList>
+			<AirSegmentList>
+				<AirSegment Key="VK0a+WZc1BKA+MwyUDAAAA==" Group="0" Carrier="UL" FlightNumber="190" Origin="DAC" Destination="CMB" DepartureTime="2021-02-06T13:00:00.000+06:00" ArrivalTime="2021-02-06T15:55:00.000+05:30" FlightTime="205" Distance="1341" ETicketability="Yes" Equipment="332" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKA/MwyUDAAAA==" />
+				</AirSegment>
+				<AirSegment Key="VK0a+WZc1BKAANwyUDAAAA==" Group="0" Carrier="UL" FlightNumber="225" Origin="CMB" Destination="DXB" DepartureTime="2021-02-06T18:35:00.000+05:30" ArrivalTime="2021-02-06T21:50:00.000+04:00" FlightTime="285" Distance="2043" ETicketability="Yes" Equipment="332" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKABNwyUDAAAA==" />
+				</AirSegment>
+				<AirSegment Key="VK0a+WZc1BKAWNwyUDAAAA==" Group="0" Carrier="UL" FlightNumber="231" Origin="CMB" Destination="DXB" DepartureTime="2021-02-07T12:55:00.000+05:30" ArrivalTime="2021-02-07T16:10:00.000+04:00" FlightTime="285" Distance="2043" ETicketability="Yes" Equipment="320" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKAXNwyUDAAAA==" />
+				</AirSegment>
+				<AirSegment Key="VK0a+WZc1BKAcNwyUDAAAA==" Group="0" Carrier="BG" FlightNumber="415" Origin="DAC" Destination="CGP" DepartureTime="2021-02-06T12:30:00.000+06:00" ArrivalTime="2021-02-06T13:15:00.000+06:00" FlightTime="45" Distance="139" ETicketability="Yes" Equipment="738" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKAdNwyUDAAAA==" />
+				</AirSegment>
+				<AirSegment Key="VK0a+WZc1BKAeNwyUDAAAA==" Group="0" Carrier="BG" FlightNumber="147" Origin="CGP" Destination="DXB" DepartureTime="2021-02-06T20:00:00.000+06:00" ArrivalTime="2021-02-06T23:59:00.000+04:00" FlightTime="359" Distance="2316" ETicketability="Yes" Equipment="788" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No 
+polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKAfNwyUDAAAA==" />
+				</AirSegment>
+				<AirSegment Key="VK0a+WZc1BKAsNwyUDAAAA==" Group="0" Carrier="H1" FlightNumber="9076" Origin="DAC" Destination="CCU" DepartureTime="2021-02-06T15:45:00.000+06:00" ArrivalTime="2021-02-06T16:10:00.000+05:30" FlightTime="55" Distance="146" ETicketability="Yes" Equipment="737" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+					<CodeshareInfo OperatingCarrier="SG">
+						SPICEJET
+					</CodeshareInfo>
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKAtNwyUDAAAA==" />
+				</AirSegment>
+				<AirSegment Key="VK0a+WZc1BKAuNwyUDAAAA==" Group="0" Carrier="H1" FlightNumber="9106" Origin="CCU" Destination="DEL" DepartureTime="2021-02-06T21:55:00.000+05:30" ArrivalTime="2021-02-07T00:20:00.000+05:30" FlightTime="145" Distance="816" ETicketability="Yes" Equipment="737" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+					<CodeshareInfo OperatingCarrier="SG">
+						SPICEJET
+					</CodeshareInfo>
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKAvNwyUDAAAA==" />
+				</AirSegment>
+				<AirSegment Key="VK0a+WZc1BKAwNwyUDAAAA==" Group="0" Carrier="H1" FlightNumber="9004" Origin="DEL" Destination="DXB" DepartureTime="2021-02-07T07:45:00.000+05:30" ArrivalTime="2021-02-07T10:10:00.000+04:00" FlightTime="235" Distance="1368" ETicketability="Yes" Equipment="737" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+					<CodeshareInfo OperatingCarrier="SG">
+						SPICEJET
+					</CodeshareInfo>
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKAxNwyUDAAAA==" />
+				</AirSegment>
+				<AirSegment Key="VK0a+WZc1BKADOwyUDAAAA==" Group="0" Carrier="TK" FlightNumber="713" Origin="DAC" Destination="IST" DepartureTime="2021-02-06T22:50:00.000+06:00" ArrivalTime="2021-02-07T05:10:00.000+03:00" FlightTime="560" Distance="3698" ETicketability="Yes" Equipment="333" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKAEOwyUDAAAA==" />
+				</AirSegment>
+				<AirSegment Key="VK0a+WZc1BKAFOwyUDAAAA==" Group="0" Carrier="TK" FlightNumber="760" Origin="IST" Destination="DXB" DepartureTime="2021-02-07T19:45:00.000+03:00" ArrivalTime="2021-02-08T01:10:00.000+04:00" FlightTime="265" Distance="1870" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKAGOwyUDAAAA==" />
+				</AirSegment>
+				<AirSegment Key="VK0a+WZc1BKAfOwyUDAAAA==" Group="0" Carrier="TK" FlightNumber="7684" Origin="SAW" Destination="DXB" DepartureTime="2021-02-07T10:15:00.000+03:00" ArrivalTime="2021-02-07T15:25:00.000+04:00" FlightTime="250" Distance="1870" ETicketability="Yes" Equipment="734" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+					<CodeshareInfo>
+						ANADOLUJET
+						TRADEMARK OF TURKISH AIRLINES
+					</CodeshareInfo>
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKAgOwyUDAAAA==" />
+				</AirSegment>
+				<AirSegment Key="VK0a+WZc1BKAlOwyUDAAAA==" Group="0" Carrier="QR" FlightNumber="639" Origin="DAC" Destination="DOH" DepartureTime="2021-02-06T18:50:00.000+06:00" ArrivalTime="2021-02-06T22:05:00.000+03:00" FlightTime="375" Distance="2432" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKAmOwyUDAAAA==" />
+				</AirSegment>
+				<AirSegment Key="VK0a+WZc1BKAnOwyUDAAAA==" Group="0" Carrier="QR" FlightNumber="1070" Origin="DOH" Destination="KWI" DepartureTime="2021-02-07T08:10:00.000+03:00" ArrivalTime="2021-02-07T09:40:00.000+03:00" FlightTime="90" Distance="353" ETicketability="Yes" Equipment="359" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal 
+Shop">
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKAoOwyUDAAAA==" />
+				</AirSegment>
+				<AirSegment Key="VK0a+WZc1BKApOwyUDAAAA==" Group="0" Carrier="J9" FlightNumber="123" Origin="KWI" Destination="DXB" DepartureTime="2021-02-07T12:15:00.000+03:00" ArrivalTime="2021-02-07T14:50:00.000+04:00" FlightTime="95" Distance="531" ETicketability="Yes" Equipment="320" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKAqOwyUDAAAA==" />
+				</AirSegment>
+				<AirSegment Key="VK0a+WZc1BKAIPwyUDAAAA==" Group="0" Carrier="QR" FlightNumber="1086" Origin="DOH" Destination="KWI" DepartureTime="2021-02-07T02:30:00.000+03:00" ArrivalTime="2021-02-07T04:00:00.000+03:00" FlightTime="90" Distance="353" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+					<AirAvailInfo ProviderCode="1G" />
+					<FlightDetailsRef Key="VK0a+WZc1BKAJPwyUDAAAA==" />
+				</AirSegment>
+			</AirSegmentList>
+			<FareInfoList>
+				<FareInfo Key="VK0a+WZc1BKALNwyUDAAAA==" FareBasis="ROW1BD" PassengerTypeCode="ADT" Origin="DAC" Destination="DXB" EffectiveDate="2020-11-19T15:04:00.000+06:00" DepartureDate="2021-02-06" Amount="BDT21640" NegotiatedFare="false">
+					<BaggageAllowance>
+						<MaxWeight Value="30" Unit="Kilograms" />
+					</BaggageAllowance>
+					<FareRuleKey FareInfoRef="VK0a+WZc1BKALNwyUDAAAA==" ProviderCode="1G">
+						gws-eJxNTkEKwzAMe0zRXXaSlt7SJCs7lAzGytbL/v+MOekGM9iSkS07xqhUisgc/2PAe9g31D0DFWpZXgnqPAmx7gCpgvvtKanALMRcRhNqF0+UPpY1ewOsXPWUWuDotSy5OYXJ05CCdhiN2gZ+5HI1WpfySMXOOMcQwpy/IifYpx9wuStA
+					</FareRuleKey>
+					<Brand Key="VK0a+WZc1BKAoPwyUDAAAA==" BrandID="166382" UpSellBrandID="166380" BrandTier="0004">
+						<UpsellBrand FareBasis="EOW1BD" FareInfoRef="VK0a+WZc1BKAYPwyUDAAAA==" />
+					</Brand>
+				</FareInfo>
+				<FareInfo Key="VK0a+WZc1BKAoNwyUDAAAA==" FareBasis="LBDO" PassengerTypeCode="ADT" Origin="DAC" Destination="DXB" EffectiveDate="2020-11-19T15:04:00.000+06:00" DepartureDate="2021-02-06" Amount="BDT37890" NegotiatedFare="false">
+					<BaggageAllowance>
+						<MaxWeight Value="20" Unit="Kilograms" />
+					</BaggageAllowance>
+					<FareRuleKey FareInfoRef="VK0a+WZc1BKAoNwyUDAAAA==" ProviderCode="1G">
+						gws-eJxNTkEOwjAMe8zke9xtIG5dmw0OUC4gsQv/fwZuq0lESuLElpMYY7BgJC/xPwZ8h3RFeWegICj9kzDNZgZq2mEWiHvyJ2RAeZy0Lo3qnU3kU57VsHGzTtXA3qovWVx3VRL1LCrUAgdYb4Jl8ddjpdk4Gru81jP05Q+hMSn9
+					</FareRuleKey>
+				</FareInfo>
+				<FareInfo Key="VK0a+WZc1BKA8NwyUDAAAA==" FareBasis="KOWSG" PassengerTypeCode="ADT" Origin="DAC" Destination="CCU" EffectiveDate="2020-11-19T15:04:00.000+06:00" DepartureDate="2021-02-06" Amount="BDT12713" NegotiatedFare="false">
+					<BaggageAllowance>
+						<NumberOfPieces>
+							1
+						</NumberOfPieces>
+						<MaxWeight />
+					</BaggageAllowance>
+					<FareRuleKey FareInfoRef="VK0a+WZc1BKA8NwyUDAAAA==" ProviderCode="1G">
+						gws-eJxNTkEKwzAMe0zR3UrZ2t5S3K6BQXroyuhl/3/GlITBDLaFZMuOMQYLRnKK/9Hh0yUinw5kBKX7Cd566yEaF8xsxHN/HxvkQJncxeeqtc465eODaliDD00qgavWZXZpzVaGRLmLArWBH1iTYJ6XV+Kx6WwoZJNsgN78AuQTKng=
+					</FareRuleKey>
+					<Brand Key="VK0a+WZc1BKAqPwyUDAAAA==" BrandID="662728" UpSellBrandFound="false" BrandTier="0033" />
+				</FareInfo>
+				<FareInfo Key="VK0a+WZc1BKA9NwyUDAAAA==" FareBasis="KOWSG" PassengerTypeCode="ADT" Origin="CCU" Destination="DEL" EffectiveDate="2020-11-19T15:04:00.000+06:00" DepartureDate="2021-02-06" Amount="BDT13422" NegotiatedFare="false">
+					<BaggageAllowance>
+						<NumberOfPieces>
+							1
+						</NumberOfPieces>
+						<MaxWeight />
+					</BaggageAllowance>
+					<FareRuleKey FareInfoRef="VK0a+WZc1BKA9NwyUDAAAA==" ProviderCode="1G">
+						gws-eJxNTtEKwzAI/Jhy756wtH3LSNMGNtKHroy+7P8/Y5owmKCenp7GGFVUSM7x3wZ8hkLUMwEVar7kJxh4C626INSMx/4+NpgCTSRYvzauZ/qUpGmlJWRNY6fccLWY0mlclxUD8LtwaBv4gVwM1vvyKjw2kUm92SkZYW9+AfR/KqQ=
+					</FareRuleKey>
+					<Brand Key="VK0a+WZc1BKAsPwyUDAAAA==" BrandID="662728" UpSellBrandFound="false" BrandTier="0033" />
+				</FareInfo>
+				<FareInfo Key="VK0a+WZc1BKA+NwyUDAAAA==" FareBasis="KOWSG" PassengerTypeCode="ADT" Origin="DEL" Destination="DXB" EffectiveDate="2020-11-19T15:04:00.000+06:00" DepartureDate="2021-02-07" Amount="BDT19076" NegotiatedFare="false">
+					<BaggageAllowance>
+						<NumberOfPieces>
+							1
+						</NumberOfPieces>
+						<MaxWeight />
+					</BaggageAllowance>
+					<FareRuleKey FareInfoRef="VK0a+WZc1BKA+NwyUDAAAA==" ProviderCode="1G">
+						gws-eJxNTkEOwzAIe0zlOxBNbW/ZkrSRWmWHbtp62f+fMSfRpCEBBoPBe29ioqqz/7cBnyEryjMABUaP7xvM5ssEx+qEiCm2++tYQQWlyMh+aVzP2qbCtCgTkoWxU9VwthjTXoWarIgo6l1UyA38QMqE5RofWY9VnLPa7BSP8s0v89UqoA==
+					</FareRuleKey>
+					<Brand Key="VK0a+WZc1BKAuPwyUDAAAA==" BrandID="662728" UpSellBrandFound="false" BrandTier="0033" />
+				</FareInfo>
+				<FareInfo Key="VK0a+WZc1BKAROwyUDAAAA==" FareBasis="TF2PXOW" PassengerTypeCode="ADT" Origin="DAC" Destination="DXB" EffectiveDate="2020-11-19T15:04:00.000+06:00" DepartureDate="2021-02-06" Amount="BDT46731" NegotiatedFare="false">
+					<BaggageAllowance>
+						<MaxWeight Value="30" Unit="Kilograms" />
+					</BaggageAllowance>
+					<FareRuleKey FareInfoRef="VK0a+WZc1BKAROwyUDAAAA==" ProviderCode="1G">
+						gws-eJxNjsEKAyEMRD9mmXviaqU3t+pSKNg9WNa99P8/o6PbQgMxk7wwMYRgxIiqXsN/THhP9YHyikCBYaZ2g7MiAmV3QMQo6mq29txBD6XNhaQMelYde8lHx4LsV3uiHjjGm5ZI5pzjAs0V/TK65AA/ke+UZUl1y83KPBte379MPPjTD5TuK7w=
+					</FareRuleKey>
+					<Brand Key="VK0a+WZc1BKAwPwyUDAAAA==" BrandFound="false" UpSellBrandFound="false" />
+				</FareInfo>
+				<FareInfo Key="VK0a+WZc1BKA4OwyUDAAAA==" FareBasis="NJR4R1RO" PassengerTypeCode="ADT" Origin="DAC" Destination="DXB" EffectiveDate="2020-11-19T15:04:00.000+06:00" DepartureDate="2021-02-06" Amount="BDT65255" NegotiatedFare="false">
+					<BaggageAllowance>
+						<MaxWeight Value="25" Unit="Kilograms" />
+					</BaggageAllowance>
+					<FareRuleKey FareInfoRef="VK0a+WZc1BKA4OwyUDAAAA==" ProviderCode="1G">
+						gws-eJxNjsEOwjAMQz9m8t3pGKW3jnUT2qGICiR24f8/A7djEpHSOHmR0xijo6OZhfgfHT7doyC/JiDDKdP7Cu8HEqZuA+kk1nIqVu6QicnnLJQb3qu1xRTmiwoWLsOOamBrbxonsd2ZpKGeXgNqoxEOMd8k85ieZePAvtfM/RA99Ncv8jEsFQ==
+					</FareRuleKey>
+					<Brand Key="VK0a+WZc1BKAyPwyUDAAAA==" BrandFound="false" UpSellBrandFound="false" />
+				</FareInfo>
+				<FareInfo Key="VK0a+WZc1BKAYPwyUDAAAA==" FareBasis="EOW1BD" PassengerTypeCode="ADT" Origin="DAC" Destination="DXB" EffectiveDate="2020-11-19T15:04:00.000+06:00" DepartureDate="2021-02-06" Amount="BDT28881" NegotiatedFare="false">
+					<BaggageAllowance>
+						<MaxWeight Value="30" Unit="Kilograms" />
+					</BaggageAllowance>
+					<FareRuleKey FareInfoRef="VK0a+WZc1BKAYPwyUDAAAA==" ProviderCode="1G">
+						gws-eJxNjksOwjAMRA9Tzd6fBtRdmqQVCxQ2VNAN9z8Gk7RIWLJnrJfYjjGamKjqFP9jwGfY7qhbBiqMWd4JriYCZbdDxBTL46WpgCOUUy4EtcNDtT/LlkcKVlntQC2w91rmTOajm1BF0RajWf7Azyw32jqXZypc4y4hhCmfUK7gpV9maSsq
+					</FareRuleKey>
+					<Brand Key="VK0a+WZc1BKA0PwyUDAAAA==" BrandID="166380" UpSellBrandFound="false" BrandTier="0005" />
+				</FareInfo>
+			</FareInfoList>
+			<RouteList>
+				<Route Key="VK0a+WZc1BKAmPwyUDAAAA==">
+					<Leg Key="VK0a+WZc1BKACNwyUDAAAA==" Group="0" Origin="DAC" Destination="DXB" />
+				</Route>
+			</RouteList>
+			<AirPricingSolution Key="VK0a+WZc1BKA9MwyUDAAAA==" TotalPrice="BDT29267" BasePrice="USD257.00" ApproximateTotalPrice="BDT29267" ApproximateBasePrice="BDT21640" EquivalentBasePrice="BDT21640" Taxes="BDT7627" ApproximateTaxes="BDT7627">
+				<Journey TravelTime="P0DT10H50M0S">
+					<AirSegmentRef Key="VK0a+WZc1BKA+MwyUDAAAA==" />
+					<AirSegmentRef Key="VK0a+WZc1BKAANwyUDAAAA==" />
+				</Journey>
+				<LegRef Key="VK0a+WZc1BKACNwyUDAAAA==" />
+				<AirPricingInfo Key="VK0a+WZc1BKADNwyUDAAAA==" TotalPrice="BDT29267" BasePrice="USD257.00" ApproximateTotalPrice="BDT29267" ApproximateBasePrice="BDT21640" EquivalentBasePrice="BDT21640" Taxes="BDT7627" ApproximateTaxes="BDT7627" LatestTicketingTime="2021-02-06" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
+					<FareInfoRef Key="VK0a+WZc1BKALNwyUDAAAA==" />
+					<BookingInfo BookingCode="R" BookingCount="7" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKALNwyUDAAAA==" SegmentRef="VK0a+WZc1BKA+MwyUDAAAA==" />
+					<BookingInfo BookingCode="R" BookingCount="7" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKALNwyUDAAAA==" SegmentRef="VK0a+WZc1BKAANwyUDAAAA==" />
+					<TaxInfo Category="BD" Amount="BDT500" Key="VK0a-WZc1BKAENwyUDAAAAAA" />
+					<TaxInfo Category="OW" Amount="BDT2000" Key="VK0a-WZc1BKAFNwyUDAAAAAA" />
+					<TaxInfo Category="P7" Amount="BDT842" Key="VK0a-WZc1BKAGNwyUDAAAAAA" />
+					<TaxInfo Category="P8" Amount="BDT842" Key="VK0a-WZc1BKAHNwyUDAAAAAA" />
+					<TaxInfo Category="UT" Amount="BDT3000" Key="VK0a-WZc1BKAINwyUDAAAAAA" />
+					<TaxInfo Category="ZR" Amount="BDT115" Key="VK0a-WZc1BKAJNwyUDAAAAAA" />
+					<TaxInfo Category="E5" Amount="BDT328" Key="VK0a-WZc1BKAKNwyUDAAAAAA" />
+					<FareCalc>
+						DAC UL X/CMB UL DXB Q DACDXB23.40 234.00ROW1BD NUC257.40END ROE1.0
+					</FareCalc>
+					<PassengerType Code="ADT" />
+					<ChangePenalty PenaltyApplies="Anytime">
+						<Amount>
+							BDT5052.0
+						</Amount>
+					</ChangePenalty>
+					<CancelPenalty PenaltyApplies="Anytime">
+						<Amount>
+							BDT7578.0
+						</Amount>
+					</CancelPenalty>
+				</AirPricingInfo>
+				<Connection SegmentIndex="0" />
+			</AirPricingSolution>
+			<AirPricingSolution Key="VK0a+WZc1BKAaNwyUDAAAA==" TotalPrice="BDT29267" BasePrice="USD257.00" ApproximateTotalPrice="BDT29267" ApproximateBasePrice="BDT21640" EquivalentBasePrice="BDT21640" Taxes="BDT7627" ApproximateTaxes="BDT7627">
+				<Journey TravelTime="P1DT5H10M0S">
+					<AirSegmentRef Key="VK0a+WZc1BKA+MwyUDAAAA==" />
+					<AirSegmentRef Key="VK0a+WZc1BKAWNwyUDAAAA==" />
+				</Journey>
+				<LegRef Key="VK0a+WZc1BKACNwyUDAAAA==" />
+				<AirPricingInfo Key="VK0a+WZc1BKAMNwyUDAAAA==" TotalPrice="BDT29267" BasePrice="USD257.00" ApproximateTotalPrice="BDT29267" ApproximateBasePrice="BDT21640" EquivalentBasePrice="BDT21640" Taxes="BDT7627" ApproximateTaxes="BDT7627" LatestTicketingTime="2021-02-06" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
+					<FareInfoRef Key="VK0a+WZc1BKALNwyUDAAAA==" />
+					<BookingInfo BookingCode="R" BookingCount="7" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKALNwyUDAAAA==" SegmentRef="VK0a+WZc1BKA+MwyUDAAAA==" />
+					<BookingInfo BookingCode="R" BookingCount="7" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKALNwyUDAAAA==" SegmentRef="VK0a+WZc1BKAWNwyUDAAAA==" />
+					<TaxInfo Category="BD" Amount="BDT500" Key="VK0a-WZc1BKANNwyUDAAAAAA" />
+					<TaxInfo Category="OW" Amount="BDT2000" Key="VK0a-WZc1BKAONwyUDAAAAAA" />
+					<TaxInfo Category="P7" Amount="BDT842" Key="VK0a-WZc1BKAPNwyUDAAAAAA" />
+					<TaxInfo Category="P8" Amount="BDT842" Key="VK0a-WZc1BKAQNwyUDAAAAAA" />
+					<TaxInfo Category="UT" Amount="BDT3000" Key="VK0a-WZc1BKARNwyUDAAAAAA" />
+					<TaxInfo Category="ZR" Amount="BDT115" Key="VK0a-WZc1BKASNwyUDAAAAAA" />
+					<TaxInfo Category="E5" Amount="BDT328" Key="VK0a-WZc1BKATNwyUDAAAAAA" />
+					<FareCalc>
+						DAC UL X/CMB UL DXB Q DACDXB23.40 234.00ROW1BD NUC257.40END
+						ROE1.0
+					</FareCalc>
+					<PassengerType Code="ADT" />
+					<ChangePenalty PenaltyApplies="Anytime">
+						<Amount>
+							BDT5052.0
+						</Amount>
+					</ChangePenalty>
+					<CancelPenalty PenaltyApplies="Anytime">
+						<Amount>
+							BDT7578.0
+						</Amount>
+					</CancelPenalty>
+				</AirPricingInfo>
+				<Connection SegmentIndex="0" />
+			</AirPricingSolution>
+			<AirPricingSolution Key="VK0a+WZc1BKAbNwyUDAAAA==" TotalPrice="BDT45517" BasePrice="USD450.00" ApproximateTotalPrice="BDT45517" ApproximateBasePrice="BDT37890" EquivalentBasePrice="BDT37890" Taxes="BDT7627" ApproximateTaxes="BDT7627">
+				<Journey TravelTime="P0DT13H29M0S">
+					<AirSegmentRef Key="VK0a+WZc1BKAcNwyUDAAAA==" />
+					<AirSegmentRef Key="VK0a+WZc1BKAeNwyUDAAAA==" />
+				</Journey>
+				<LegRef Key="VK0a+WZc1BKACNwyUDAAAA==" />
+				<AirPricingInfo Key="VK0a+WZc1BKAgNwyUDAAAA==" TotalPrice="BDT45517" BasePrice="USD450.00" ApproximateTotalPrice="BDT45517" ApproximateBasePrice="BDT37890" EquivalentBasePrice="BDT37890" Taxes="BDT7627" ApproximateTaxes="BDT7627" LatestTicketingTime="2020-12-03" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="BG" ProviderCode="1G" Cat35Indicator="false">
+					<FareInfoRef Key="VK0a+WZc1BKAoNwyUDAAAA==" />
+					<BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKAoNwyUDAAAA==" SegmentRef="VK0a+WZc1BKAcNwyUDAAAA==" />
+					<BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKAoNwyUDAAAA==" SegmentRef="VK0a+WZc1BKAeNwyUDAAAA==" />
+					<TaxInfo Category="BD" Amount="BDT500" Key="VK0a-WZc1BKAhNwyUDAAAAAA" />
+					<TaxInfo Category="OW" Amount="BDT2000" Key="VK0a-WZc1BKAiNwyUDAAAAAA" />
+					<TaxInfo Category="P7" Amount="BDT842" Key="VK0a-WZc1BKAjNwyUDAAAAAA" />
+					<TaxInfo Category="P8" Amount="BDT842" Key="VK0a-WZc1BKAkNwyUDAAAAAA" />
+					<TaxInfo Category="UT" Amount="BDT3000" Key="VK0a-WZc1BKAlNwyUDAAAAAA" />
+					<TaxInfo Category="ZR" Amount="BDT115" Key="VK0a-WZc1BKAmNwyUDAAAAAA" />
+					<TaxInfo Category="E5" Amount="BDT328" Key="VK0a-WZc1BKAnNwyUDAAAAAA" />
+					<FareCalc>
+						DAC BG X/CGP BG DXB 450.00LBDO NUC450.00END ROE1.0
+					</FareCalc>
+					<PassengerType Code="ADT" />
+					<ChangePenalty>
+						<Percentage>
+							0.00
+						</Percentage>
+					</ChangePenalty>
+					<CancelPenalty>
+						<Percentage>
+							0.00
+						</Percentage>
+					</CancelPenalty>
+				</AirPricingInfo>
+				<Connection SegmentIndex="0" />
+			</AirPricingSolution>
+			<AirPricingSolution Key="VK0a+WZc1BKArNwyUDAAAA==" TotalPrice="BDT67154" BasePrice="INR39915" ApproximateTotalPrice="BDT67154" ApproximateBasePrice="BDT45211" EquivalentBasePrice="BDT45211" Taxes="BDT21943" ApproximateTaxes="BDT21943">
+				<Journey TravelTime="P0DT20H25M0S">
+					<AirSegmentRef Key="VK0a+WZc1BKAsNwyUDAAAA==" />
+					<AirSegmentRef Key="VK0a+WZc1BKAuNwyUDAAAA==" />
+					<AirSegmentRef Key="VK0a+WZc1BKAwNwyUDAAAA==" />
+				</Journey>
+				<LegRef Key="VK0a+WZc1BKACNwyUDAAAA==" />
+				<AirPricingInfo Key="VK0a+WZc1BKAyNwyUDAAAA==" TotalPrice="BDT67154" BasePrice="INR39915" ApproximateTotalPrice="BDT67154" ApproximateBasePrice="BDT45211" EquivalentBasePrice="BDT45211" Taxes="BDT21943" ApproximateTaxes="BDT21943" LatestTicketingTime="2020-11-21" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="H1" ProviderCode="1G" Cat35Indicator="false">
+					<FareInfoRef Key="VK0a+WZc1BKA8NwyUDAAAA==" />
+					<FareInfoRef Key="VK0a+WZc1BKA9NwyUDAAAA==" />
+					<FareInfoRef Key="VK0a+WZc1BKA+NwyUDAAAA==" />
+					<BookingInfo BookingCode="K" BookingCount="4" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKA8NwyUDAAAA==" SegmentRef="VK0a+WZc1BKAsNwyUDAAAA==" />
+					<BookingInfo BookingCode="K" BookingCount="4" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKA9NwyUDAAAA==" SegmentRef="VK0a+WZc1BKAuNwyUDAAAA==" />
+					<BookingInfo BookingCode="K" BookingCount="4" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKA+NwyUDAAAA==" SegmentRef="VK0a+WZc1BKAwNwyUDAAAA==" />
+					<TaxInfo Category="BD" Amount="BDT500" Key="VK0a-WZc1BKAzNwyUDAAAAAA" />
+					<TaxInfo Category="OW" Amount="BDT2000" Key="VK0a-WZc1BKA0NwyUDAAAAAA" />
+					<TaxInfo Category="P7" Amount="BDT842" Key="VK0a-WZc1BKA1NwyUDAAAAAA" />
+					<TaxInfo Category="P8" Amount="BDT842" Key="VK0a-WZc1BKA2NwyUDAAAAAA" />
+					<TaxInfo Category="UT" Amount="BDT3000" Key="VK0a-WZc1BKA3NwyUDAAAAAA" />
+					<TaxInfo Category="ZR" Amount="BDT115" Key="VK0a-WZc1BKA4NwyUDAAAAAA" />
+					<TaxInfo Category="E5" Amount="BDT328" Key="VK0a-WZc1BKA5NwyUDAAAAAA" />
+					<TaxInfo Category="YQ" Amount="BDT8085" Key="VK0a-WZc1BKA6NwyUDAAAAAA" />
+					<TaxInfo Category="YR" Amount="BDT6231" Key="VK0a-WZc1BKA7NwyUDAAAAAA" />
+					<FareCalc>
+						DAC
+						H1 CCU 153.03KOWSG H1 DEL 161.56KOWSG H1 DXB 229.58KOWSG NUC544.17END ROE73.343859
+					</FareCalc>
+					<PassengerType Code="ADT" />
+					<ChangePenalty PenaltyApplies="Anytime">
+						<Percentage>
+							0.00
+						</Percentage>
+					</ChangePenalty>
+					<CancelPenalty PenaltyApplies="Anytime">
+						<Percentage>
+							0.00
+						</Percentage>
+					</CancelPenalty>
+				</AirPricingInfo>
+				<Connection SegmentIndex="0" />
+				<Connection SegmentIndex="1" />
+			</AirPricingSolution>
+			<AirPricingSolution Key="VK0a+WZc1BKACOwyUDAAAA==" TotalPrice="BDT70173" BasePrice="USD555.00" ApproximateTotalPrice="BDT70173" ApproximateBasePrice="BDT46731" EquivalentBasePrice="BDT46731" Taxes="BDT23442" ApproximateTaxes="BDT23442">
+				<Journey TravelTime="P1DT4H20M0S">
+					<AirSegmentRef Key="VK0a+WZc1BKADOwyUDAAAA==" />
+					<AirSegmentRef Key="VK0a+WZc1BKAFOwyUDAAAA==" />
+				</Journey>
+				<LegRef Key="VK0a+WZc1BKACNwyUDAAAA==" />
+				<AirPricingInfo Key="VK0a+WZc1BKAHOwyUDAAAA==" TotalPrice="BDT70173" BasePrice="USD555.00" ApproximateTotalPrice="BDT70173" ApproximateBasePrice="BDT46731" EquivalentBasePrice="BDT46731" Taxes="BDT23442" ApproximateTaxes="BDT23442" LatestTicketingTime="2021-02-06" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TK" ProviderCode="1G" Cat35Indicator="false">
+					<FareInfoRef Key="VK0a+WZc1BKAROwyUDAAAA==" />
+					<BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKAROwyUDAAAA==" SegmentRef="VK0a+WZc1BKADOwyUDAAAA==" />
+					<BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKAROwyUDAAAA==" SegmentRef="VK0a+WZc1BKAFOwyUDAAAA==" />
+					<TaxInfo Category="BD" Amount="BDT500" Key="VK0a-WZc1BKAIOwyUDAAAAAA" />
+					<TaxInfo Category="OW" Amount="BDT2000" Key="VK0a-WZc1BKAJOwyUDAAAAAA" />
+					<TaxInfo Category="P7" Amount="BDT842" Key="VK0a-WZc1BKAKOwyUDAAAAAA" />
+					<TaxInfo Category="P8" Amount="BDT842" Key="VK0a-WZc1BKALOwyUDAAAAAA" />
+					<TaxInfo Category="UT" Amount="BDT4000" Key="VK0a-WZc1BKAMOwyUDAAAAAA" />
+					<TaxInfo Category="TR" Amount="BDT500" Key="VK0a-WZc1BKANOwyUDAAAAAA" />
+					<TaxInfo Category="ZR" Amount="BDT115" Key="VK0a-WZc1BKAOOwyUDAAAAAA" />
+					<TaxInfo Category="E5" Amount="BDT328" Key="VK0a-WZc1BKAPOwyUDAAAAAA" />
+					<TaxInfo Category="YR" Amount="BDT14315" Key="VK0a-WZc1BKAQOwyUDAAAAAA" />
+					<FareCalc>
+						DAC TK X/IST TK DXB Q DACDXB15.00 540.00TF2PXOW
+						NUC555.00END ROE1.0
+					</FareCalc>
+					<PassengerType Code="ADT" />
+					<ChangePenalty PenaltyApplies="Anytime">
+						<Percentage>
+							0.00
+						</Percentage>
+					</ChangePenalty>
+					<CancelPenalty PenaltyApplies="Before Departure">
+						<Amount>
+							BDT10946
+						</Amount>
+					</CancelPenalty>
+				</AirPricingInfo>
+				<Connection SegmentIndex="0" />
+			</AirPricingSolution>
+			<AirPricingSolution Key="VK0a+WZc1BKAjOwyUDAAAA==" TotalPrice="BDT70798" BasePrice="USD555.00" ApproximateTotalPrice="BDT70798" ApproximateBasePrice="BDT46731" EquivalentBasePrice="BDT46731" Taxes="BDT24067" ApproximateTaxes="BDT24067">
+				<Journey TravelTime="P0DT18H35M0S">
+					<AirSegmentRef Key="VK0a+WZc1BKADOwyUDAAAA==" />
+					<AirSegmentRef Key="VK0a+WZc1BKAfOwyUDAAAA==" />
+				</Journey>
+				<LegRef Key="VK0a+WZc1BKACNwyUDAAAA==" />
+				<AirPricingInfo Key="VK0a+WZc1BKASOwyUDAAAA==" TotalPrice="BDT70798" BasePrice="USD555.00" ApproximateTotalPrice="BDT70798" ApproximateBasePrice="BDT46731" EquivalentBasePrice="BDT46731" Taxes="BDT24067" ApproximateTaxes="BDT24067" LatestTicketingTime="2021-02-06" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TK" ProviderCode="1G" Cat35Indicator="false">
+					<FareInfoRef Key="VK0a+WZc1BKAROwyUDAAAA==" />
+					<BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKAROwyUDAAAA==" SegmentRef="VK0a+WZc1BKADOwyUDAAAA==" />
+					<BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKAROwyUDAAAA==" SegmentRef="VK0a+WZc1BKAfOwyUDAAAA==" />
+					<TaxInfo Category="BD" Amount="BDT500" Key="VK0a-WZc1BKATOwyUDAAAAAA" />
+					<TaxInfo Category="OW" Amount="BDT2000" Key="VK0a-WZc1BKAUOwyUDAAAAAA" />
+					<TaxInfo Category="P7" Amount="BDT842" Key="VK0a-WZc1BKAVOwyUDAAAAAA" />
+					<TaxInfo Category="P8" Amount="BDT842" Key="VK0a-WZc1BKAWOwyUDAAAAAA" />
+					<TaxInfo Category="UT" Amount="BDT4000" Key="VK0a-WZc1BKAXOwyUDAAAAAA" />
+					<TaxInfo Category="M6" Amount="BDT300" Key="VK0a-WZc1BKAYOwyUDAAAAAA" />
+					<TaxInfo Category="TR" Amount="BDT1499" Key="VK0a-WZc1BKAZOwyUDAAAAAA" />
+					<TaxInfo Category="ZR" Amount="BDT115" Key="VK0a-WZc1BKAaOwyUDAAAAAA" />
+					<TaxInfo Category="E5" Amount="BDT328" Key="VK0a-WZc1BKAbOwyUDAAAAAA" />
+					<TaxInfo Category="YR" Amount="BDT13641" Key="VK0a-WZc1BKAcOwyUDAAAAAA" />
+					<FareCalc>
+						DAC TK X/IST TK DXB Q DACDXB15.00 540.00TF2PXOW NUC555.00END ROE1.0
+					</FareCalc>
+					<PassengerType Code="ADT" />
+					<ChangePenalty PenaltyApplies="Anytime">
+						<Percentage>
+							0.00
+						</Percentage>
+					</ChangePenalty>
+					<CancelPenalty PenaltyApplies="Before Departure">
+						<Amount>
+							BDT10946
+						</Amount>
+					</CancelPenalty>
+				</AirPricingInfo>
+				<Connection ChangeOfAirport="true" SegmentIndex="0" />
+			</AirPricingSolution>
+			<AirPricingSolution Key="VK0a+WZc1BKAkOwyUDAAAA==" TotalPrice="BDT74355" BasePrice="USD775.00" ApproximateTotalPrice="BDT74355" ApproximateBasePrice="BDT65255" EquivalentBasePrice="BDT65255" Taxes="BDT9100" ApproximateTaxes="BDT9100">
+				<Journey TravelTime="P0DT22H0M0S">
+					<AirSegmentRef Key="VK0a+WZc1BKAlOwyUDAAAA==" />
+					<AirSegmentRef Key="VK0a+WZc1BKAnOwyUDAAAA==" />
+					<AirSegmentRef Key="VK0a+WZc1BKApOwyUDAAAA==" />
+				</Journey>
+				<LegRef Key="VK0a+WZc1BKACNwyUDAAAA==" />
+				<AirPricingInfo Key="VK0a+WZc1BKArOwyUDAAAA==" TotalPrice="BDT74355" BasePrice="USD775.00" ApproximateTotalPrice="BDT74355" ApproximateBasePrice="BDT65255" EquivalentBasePrice="BDT65255" Taxes="BDT9100" ApproximateTaxes="BDT9100" LatestTicketingTime="2021-02-06" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="QR" ProviderCode="1G" Cat35Indicator="false">
+					<FareInfoRef Key="VK0a+WZc1BKA4OwyUDAAAA==" />
+					<BookingInfo BookingCode="N" BookingCount="9" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKA4OwyUDAAAA==" SegmentRef="VK0a+WZc1BKAlOwyUDAAAA==" />
+					<BookingInfo BookingCode="N" BookingCount="9" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKA4OwyUDAAAA==" SegmentRef="VK0a+WZc1BKAnOwyUDAAAA==" />
+					<BookingInfo BookingCode="O" BookingCount="9" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKA4OwyUDAAAA==" SegmentRef="VK0a+WZc1BKApOwyUDAAAA==" />
+					<TaxInfo Category="BD" Amount="BDT500" Key="VK0a-WZc1BKAsOwyUDAAAAAA" />
+					<TaxInfo Category="OW" Amount="BDT2000" Key="VK0a-WZc1BKAtOwyUDAAAAAA" />
+					<TaxInfo Category="P7" Amount="BDT842" Key="VK0a-WZc1BKAuOwyUDAAAAAA" />
+					<TaxInfo Category="P8" Amount="BDT842" Key="VK0a-WZc1BKAvOwyUDAAAAAA" />
+					<TaxInfo Category="UT" Amount="BDT3000" Key="VK0a-WZc1BKAwOwyUDAAAAAA" />
+					<TaxInfo Category="G4" Amount="BDT810" Key="VK0a-WZc1BKAxOwyUDAAAAAA" />
+					<TaxInfo Category="PZ" Amount="BDT43" Key="VK0a-WZc1BKAyOwyUDAAAAAA" />
+					<TaxInfo Category="GZ" Amount="BDT276" Key="VK0a-WZc1BKAzOwyUDAAAAAA" />
+					<TaxInfo Category="L2" Amount="BDT276" Key="VK0a-WZc1BKA0OwyUDAAAAAA" />
+					<TaxInfo Category="YX" Amount="BDT68" Key="VK0a-WZc1BKA1OwyUDAAAAAA" />
+					<TaxInfo Category="ZR" Amount="BDT115" Key="VK0a-WZc1BKA2OwyUDAAAAAA" />
+					<TaxInfo Category="E5" Amount="BDT328" Key="VK0a-WZc1BKA3OwyUDAAAAAA" />
+					<FareCalc>
+						DAC QR X/DOH QR X/KWI J9 DXB 775.00NJR4R1RO NUC775.00END ROE1.0
+					</FareCalc>
+					<PassengerType Code="ADT" />
+					<ChangePenalty PenaltyApplies="Anytime">
+						<Amount>
+							BDT5052.0
+						</Amount>
+					</ChangePenalty>
+					<CancelPenalty PenaltyApplies="Anytime">
+						<Amount>
+							BDT7578.0
+						</Amount>
+					</CancelPenalty>
+				</AirPricingInfo>
+				<Connection SegmentIndex="0" />
+				<Connection SegmentIndex="1" />
+			</AirPricingSolution>
+			<AirPricingSolution Key="VK0a+WZc1BKAOPwyUDAAAA==" TotalPrice="BDT74355" BasePrice="USD775.00" ApproximateTotalPrice="BDT74355" ApproximateBasePrice="BDT65255" EquivalentBasePrice="BDT65255" Taxes="BDT9100" ApproximateTaxes="BDT9100">
+				<Journey TravelTime="P0DT22H0M0S">
+					<AirSegmentRef Key="VK0a+WZc1BKAlOwyUDAAAA==" />
+					<AirSegmentRef Key="VK0a+WZc1BKAIPwyUDAAAA==" />
+					<AirSegmentRef Key="VK0a+WZc1BKApOwyUDAAAA==" />
+				</Journey>
+				<LegRef Key="VK0a+WZc1BKACNwyUDAAAA==" />
+				<AirPricingInfo Key="VK0a+WZc1BKA5OwyUDAAAA==" TotalPrice="BDT74355" BasePrice="USD775.00" ApproximateTotalPrice="BDT74355" ApproximateBasePrice="BDT65255" EquivalentBasePrice="BDT65255" Taxes="BDT9100" ApproximateTaxes="BDT9100" LatestTicketingTime="2021-02-06" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="QR" ProviderCode="1G" Cat35Indicator="false">
+					<FareInfoRef Key="VK0a+WZc1BKA4OwyUDAAAA==" />
+					<BookingInfo BookingCode="N" BookingCount="9" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKA4OwyUDAAAA==" SegmentRef="VK0a+WZc1BKAlOwyUDAAAA==" />
+					<BookingInfo BookingCode="N" BookingCount="9" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKA4OwyUDAAAA==" SegmentRef="VK0a+WZc1BKAIPwyUDAAAA==" />
+					<BookingInfo BookingCode="O" BookingCount="9" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKA4OwyUDAAAA==" SegmentRef="VK0a+WZc1BKApOwyUDAAAA==" />
+					<TaxInfo Category="BD" Amount="BDT500" Key="VK0a-WZc1BKA6OwyUDAAAAAA" />
+					<TaxInfo Category="OW" Amount="BDT2000" Key="VK0a-WZc1BKA7OwyUDAAAAAA" />
+					<TaxInfo Category="P7" Amount="BDT842" Key="VK0a-WZc1BKA8OwyUDAAAAAA" />
+					<TaxInfo Category="P8" Amount="BDT842" Key="VK0a-WZc1BKA9OwyUDAAAAAA" />
+					<TaxInfo Category="UT" Amount="BDT3000" Key="VK0a-WZc1BKA-OwyUDAAAAAA" />
+					<TaxInfo Category="G4" Amount="BDT810" Key="VK0a-WZc1BKA/OwyUDAAAAAA" />
+					<TaxInfo Category="PZ" Amount="BDT43" Key="VK0a-WZc1BKAAPwyUDAAAAAA" />
+					<TaxInfo Category="GZ" Amount="BDT276" Key="VK0a-WZc1BKABPwyUDAAAAAA" />
+					<TaxInfo Category="L2" Amount="BDT276" Key="VK0a-WZc1BKACPwyUDAAAAAA" />
+					<TaxInfo Category="YX" Amount="BDT68" Key="VK0a-WZc1BKADPwyUDAAAAAA" />
+					<TaxInfo Category="ZR" Amount="BDT115" Key="VK0a-WZc1BKAEPwyUDAAAAAA" />
+					<TaxInfo Category="E5" Amount="BDT328" Key="VK0a-WZc1BKAFPwyUDAAAAAA" />
+					<FareCalc>
+						DAC QR X/DOH QR X/KWI J9 DXB 775.00NJR4R1RO NUC775.00END ROE1.0
+					</FareCalc>
+					<PassengerType Code="ADT" />
+					<ChangePenalty PenaltyApplies="Anytime">
+						<Amount>
+							BDT5052.0
+						</Amount>
+					</ChangePenalty>
+					<CancelPenalty PenaltyApplies="Anytime">
+						<Amount>
+							BDT7578.0
+						</Amount>
+					</CancelPenalty>
+				</AirPricingInfo>
+				<Connection SegmentIndex="0" />
+				<Connection SegmentIndex="1" />
+			</AirPricingSolution>
+			<AirPricingSolution Key="VK0a+WZc1BKAPPwyUDAAAA==" TotalPrice="BDT36508" BasePrice="USD343.00" ApproximateTotalPrice="BDT36508" ApproximateBasePrice="BDT28881" EquivalentBasePrice="BDT28881" Taxes="BDT7627" ApproximateTaxes="BDT7627">
+				<Journey TravelTime="P0DT10H50M0S">
+					<AirSegmentRef Key="VK0a+WZc1BKA+MwyUDAAAA==" />
+					<AirSegmentRef Key="VK0a+WZc1BKAANwyUDAAAA==" />
+				</Journey>
+				<LegRef Key="VK0a+WZc1BKACNwyUDAAAA==" />
+				<AirPricingInfo Key="VK0a+WZc1BKAQPwyUDAAAA==" TotalPrice="BDT36508" BasePrice="USD343.00" ApproximateTotalPrice="BDT36508" ApproximateBasePrice="BDT28881" EquivalentBasePrice="BDT28881" Taxes="BDT7627" ApproximateTaxes="BDT7627" LatestTicketingTime="2021-02-06" PricingMethod="Guaranteed" Refundable="true" PlatingCarrier="UL" ProviderCode="1G">
+					<FareInfoRef Key="VK0a+WZc1BKAYPwyUDAAAA==" />
+					<BookingInfo BookingCode="E" BookingCount="7" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKAYPwyUDAAAA==" SegmentRef="VK0a+WZc1BKA+MwyUDAAAA==" />
+					<BookingInfo BookingCode="E" BookingCount="7" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKAYPwyUDAAAA==" SegmentRef="VK0a+WZc1BKAANwyUDAAAA==" />
+					<TaxInfo Category="BD" Amount="BDT500" Key="VK0a-WZc1BKARPwyUDAAAAAA" />
+					<TaxInfo Category="OW" Amount="BDT2000" Key="VK0a-WZc1BKASPwyUDAAAAAA" />
+					<TaxInfo Category="P7" Amount="BDT842" Key="VK0a-WZc1BKATPwyUDAAAAAA" />
+					<TaxInfo Category="P8" Amount="BDT842" Key="VK0a-WZc1BKAUPwyUDAAAAAA" />
+					<TaxInfo Category="UT" Amount="BDT3000" Key="VK0a-WZc1BKAVPwyUDAAAAAA" />
+					<TaxInfo Category="ZR" Amount="BDT115" Key="VK0a-WZc1BKAWPwyUDAAAAAA" />
+					<TaxInfo Category="E5" Amount="BDT328" Key="VK0a-WZc1BKAXPwyUDAAAAAA" />
+					<FareCalc>
+						DAC UL
+						X/CMB UL DXB Q DACDXB31.20 312.00EOW1BD NUC343.20END ROE1.0
+					</FareCalc>
+					<PassengerType Code="ADT" />
+					<ChangePenalty PenaltyApplies="Anytime">
+						<Amount>
+							BDT4210.0
+						</Amount>
+					</ChangePenalty>
+					<CancelPenalty PenaltyApplies="Anytime">
+						<Amount>
+							BDT6736.0
+						</Amount>
+					</CancelPenalty>
+				</AirPricingInfo>
+				<Connection SegmentIndex="0" />
+			</AirPricingSolution>
+			<AirPricingSolution Key="VK0a+WZc1BKAlPwyUDAAAA==" TotalPrice="BDT36508" BasePrice="USD343.00" ApproximateTotalPrice="BDT36508" ApproximateBasePrice="BDT28881" EquivalentBasePrice="BDT28881" Taxes="BDT7627" ApproximateTaxes="BDT7627">
+				<Journey TravelTime="P1DT5H10M0S">
+					<AirSegmentRef Key="VK0a+WZc1BKA+MwyUDAAAA==" />
+					<AirSegmentRef Key="VK0a+WZc1BKAWNwyUDAAAA==" />
+				</Journey>
+				<LegRef Key="VK0a+WZc1BKACNwyUDAAAA==" />
+				<AirPricingInfo Key="VK0a+WZc1BKAZPwyUDAAAA==" TotalPrice="BDT36508" BasePrice="USD343.00" ApproximateTotalPrice="BDT36508" ApproximateBasePrice="BDT28881" EquivalentBasePrice="BDT28881" Taxes="BDT7627" ApproximateTaxes="BDT7627" LatestTicketingTime="2021-02-06" PricingMethod="Guaranteed" Refundable="true" PlatingCarrier="UL" ProviderCode="1G">
+					<FareInfoRef Key="VK0a+WZc1BKAYPwyUDAAAA==" />
+					<BookingInfo BookingCode="E" BookingCount="7" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKAYPwyUDAAAA==" SegmentRef="VK0a+WZc1BKA+MwyUDAAAA==" />
+					<BookingInfo BookingCode="E" BookingCount="7" CabinClass="Economy" FareInfoRef="VK0a+WZc1BKAYPwyUDAAAA==" SegmentRef="VK0a+WZc1BKAWNwyUDAAAA==" />
+					<TaxInfo Category="BD" Amount="BDT500" Key="VK0a-WZc1BKAaPwyUDAAAAAA" />
+					<TaxInfo Category="OW" Amount="BDT2000" Key="VK0a-WZc1BKAbPwyUDAAAAAA" />
+					<TaxInfo Category="P7" Amount="BDT842" Key="VK0a-WZc1BKAcPwyUDAAAAAA" />
+					<TaxInfo Category="P8" Amount="BDT842" Key="VK0a-WZc1BKAdPwyUDAAAAAA" />
+					<TaxInfo Category="UT" Amount="BDT3000" Key="VK0a-WZc1BKAePwyUDAAAAAA" />
+					<TaxInfo Category="ZR" Amount="BDT115" Key="VK0a-WZc1BKAfPwyUDAAAAAA" />
+					<TaxInfo Category="E5" Amount="BDT328" Key="VK0a-WZc1BKAgPwyUDAAAAAA" />
+					<FareCalc>
+						DAC UL X/CMB UL DXB Q DACDXB31.20 312.00EOW1BD NUC343.20END ROE1.0
+					</FareCalc>
+					<PassengerType Code="ADT" />
+					<ChangePenalty PenaltyApplies="Anytime">
+						<Amount>
+							BDT4210.0
+						</Amount>
+					</ChangePenalty>
+					<CancelPenalty PenaltyApplies="Anytime">
+						<Amount>
+							BDT6736.0
+						</Amount>
+					</CancelPenalty>
+				</AirPricingInfo>
+				<Connection SegmentIndex="0" />
+			</AirPricingSolution>
+			<BrandList>
+				<Brand Key="VK0a+WZc1BKA2PwyUDAAAA==" BrandID="166382" Name="Economy Value" BrandedDetailsAvailable="true" Carrier="UL">
+					<Title Type="External" LanguageCode="EN">
+						Economy Value
+					</Title>
+					<Title Type="Short" LanguageCode="EN">
+						ECO VALUE
+					</Title>
+					<Text Type="MarketingAgent" LanguageCode="EN">
+						'Economy Value includes:
+					</Text>
+				</Brand>
+			</BrandList>
+		</LowFareSearchRsp>
+	</Body>
+</Envelope>

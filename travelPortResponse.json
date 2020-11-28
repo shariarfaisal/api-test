@@ -1,0 +1,1902 @@
+{
+    "message": "Data Found",
+    "data": {
+        "flightsList": [
+            {
+                "pricing": {
+                    "priceDetail": {
+                        "Key": "hjYrVHiYlDKAasIzOBAAAA==",
+                        "TotalPrice": "BDT54433",
+                        "BasePrice": "USD375.00",
+                        "ApproximateTotalPrice": "BDT54433",
+                        "ApproximateBasePrice": "BDT31575",
+                        "EquivalentBasePrice": "BDT31575",
+                        "Taxes": "BDT22858",
+                        "ApproximateTaxes": "BDT22858"
+                    },
+                    "air:Journey": [{
+                        "$": {
+                            "TravelTime": "P0DT15H10M0S"
+                        },
+                        "air:AirSegmentRef": [
+                          {
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAbsIzOBAAAA=="
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAdsIzOBAAAA=="
+                                }
+                            }
+                        ]
+                    }],
+                    "air:LegRef": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKAfsIzOBAAAA=="
+                        }
+                    }],
+                    "air:AirPricingInfo": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKAgsIzOBAAAA==",
+                            "TotalPrice": "BDT54433",
+                            "BasePrice": "USD375.00",
+                            "ApproximateTotalPrice": "BDT54433",
+                            "ApproximateBasePrice": "BDT31575",
+                            "EquivalentBasePrice": "BDT31575",
+                            "Taxes": "BDT22858",
+                            "ApproximateTaxes": "BDT22858",
+                            "LatestTicketingTime": "2020-05-31",
+                            "PricingMethod": "Guaranteed",
+                            "Refundable": "true",
+                            "ETicketability": "Yes",
+                            "PlatingCarrier": "TK",
+                            "ProviderCode": "1G",
+                            "Cat35Indicator": "false"
+                        },
+                        "air:FareInfoRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAnsIzOBAAAA=="
+                            }
+                        }],
+                        "air:BookingInfo": [{
+                                "$": {
+                                    "BookingCode": "L",
+                                    "BookingCount": "9",
+                                    "CabinClass": "Economy",
+                                    "FareInfoRef": "hjYrVHiYlDKAnsIzOBAAAA==",
+                                    "SegmentRef": "hjYrVHiYlDKAbsIzOBAAAA=="
+                                }
+                            },
+                            {
+                                "$": {
+                                    "BookingCode": "L",
+                                    "BookingCount": "9",
+                                    "CabinClass": "Economy",
+                                    "FareInfoRef": "hjYrVHiYlDKAnsIzOBAAAA==",
+                                    "SegmentRef": "hjYrVHiYlDKAdsIzOBAAAA=="
+                                }
+                            }
+                        ],
+                        "air:TaxInfo": [{
+                                "$": {
+                                    "Category": "BD",
+                                    "Amount": "BDT500",
+                                    "Key": "hjYrVHiYlDKAhsIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "OW",
+                                    "Amount": "BDT3000",
+                                    "Key": "hjYrVHiYlDKAisIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "UT",
+                                    "Amount": "BDT4000",
+                                    "Key": "hjYrVHiYlDKAjsIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "TR",
+                                    "Amount": "BDT463",
+                                    "Key": "hjYrVHiYlDKAksIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "E5",
+                                    "Amount": "BDT75",
+                                    "Key": "hjYrVHiYlDKAlsIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "YR",
+                                    "Amount": "BDT14820",
+                                    "Key": "hjYrVHiYlDKAmsIzOBAAAAAA"
+                                }
+                            }
+                        ],
+                        "air:FareCalc": [
+                            "DAC TK X/IST TK BCN Q DACBCN15.00 360.00LF2PXOW NUC375.00END ROE1.0"
+                        ],
+                        "air:PassengerType": [{
+                            "$": {
+                                "Code": "ADT"
+                            }
+                        }],
+                        "air:ChangePenalty": [{
+                            "$": {
+                                "PenaltyApplies": "Anytime"
+                            },
+                            "air:Percentage": [
+                                "0.00"
+                            ]
+                        }],
+                        "air:CancelPenalty": [{
+                            "$": {
+                                "PenaltyApplies": "Before Departure"
+                            },
+                            "air:Amount": [
+                                "BDT10946"
+                            ]
+                        }]
+                    }],
+                    "air:Connection": [{
+                        "$": {
+                            "SegmentIndex": "0"
+                        }
+                    }]
+                },
+                "airSegment": [
+                  {
+                        "$": {
+                            "Key": "hjYrVHiYlDKAbsIzOBAAAA==",
+                            "Group": "0",
+                            "Carrier": "TK",
+                            "FlightNumber": "713",
+                            "Origin": "DAC",
+                            "Destination": "IST",
+                            "DepartureTime": "2020-06-20T06:25:00.000+06:00",
+                            "ArrivalTime": "2020-06-20T11:55:00.000+03:00",
+                            "FlightTime": "510",
+                            "Distance": "3698",
+                            "ETicketability": "Yes",
+                            "Equipment": "333",
+                            "ChangeOfPlane": "false",
+                            "ParticipantLevel": "Secure Sell",
+                            "LinkAvailability": "true",
+                            "PolledAvailabilityOption": "Cached status used. Polled avail exists",
+                            "OptionalServicesIndicator": "false",
+                            "AvailabilitySource": "Q",
+                            "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                        },
+                        "air:AirAvailInfo": [{
+                            "$": {
+                                "ProviderCode": "1G"
+                            }
+                        }],
+                        "air:FlightDetailsRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAcsIzOBAAAA=="
+                            }
+                        }]
+                    },
+                  {
+                        "$": {
+                            "Key": "hjYrVHiYlDKAdsIzOBAAAA==",
+                            "Group": "0",
+                            "Carrier": "TK",
+                            "FlightNumber": "1855",
+                            "Origin": "IST",
+                            "Destination": "BCN",
+                            "DepartureTime": "2020-06-20T14:45:00.000+03:00",
+                            "ArrivalTime": "2020-06-20T17:35:00.000+02:00",
+                            "FlightTime": "230",
+                            "Distance": "1392",
+                            "ETicketability": "Yes",
+                            "Equipment": "333",
+                            "ChangeOfPlane": "false",
+                            "ParticipantLevel": "Secure Sell",
+                            "LinkAvailability": "true",
+                            "PolledAvailabilityOption": "Cached status used. Polled avail exists",
+                            "OptionalServicesIndicator": "false",
+                            "AvailabilitySource": "Q",
+                            "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                        },
+                        "air:AirAvailInfo": [{
+                            "$": {
+                                "ProviderCode": "1G"
+                            }
+                        }],
+                        "air:FlightDetailsRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAesIzOBAAAA=="
+                            }
+                        }]
+                    }
+                ],
+                "airSegmentGroup": [
+                    [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAbsIzOBAAAA==",
+                                "Group": "0",
+                                "Carrier": "TK",
+                                "FlightNumber": "713",
+                                "Origin": "DAC",
+                                "Destination": "IST",
+                                "DepartureTime": "2020-06-20T06:25:00.000+06:00",
+                                "ArrivalTime": "2020-06-20T11:55:00.000+03:00",
+                                "FlightTime": "510",
+                                "Distance": "3698",
+                                "ETicketability": "Yes",
+                                "Equipment": "333",
+                                "ChangeOfPlane": "false",
+                                "ParticipantLevel": "Secure Sell",
+                                "LinkAvailability": "true",
+                                "PolledAvailabilityOption": "Cached status used. Polled avail exists",
+                                "OptionalServicesIndicator": "false",
+                                "AvailabilitySource": "Q",
+                                "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                            },
+                            "air:AirAvailInfo": [{
+                                "$": {
+                                    "ProviderCode": "1G"
+                                }
+                            }],
+                            "air:FlightDetailsRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAcsIzOBAAAA=="
+                                }
+                            }]
+                        },
+                        {
+                            "$": {
+                                "Key": "hjYrVHiYlDKAdsIzOBAAAA==",
+                                "Group": "0",
+                                "Carrier": "TK",
+                                "FlightNumber": "1855",
+                                "Origin": "IST",
+                                "Destination": "BCN",
+                                "DepartureTime": "2020-06-20T14:45:00.000+03:00",
+                                "ArrivalTime": "2020-06-20T17:35:00.000+02:00",
+                                "FlightTime": "230",
+                                "Distance": "1392",
+                                "ETicketability": "Yes",
+                                "Equipment": "333",
+                                "ChangeOfPlane": "false",
+                                "ParticipantLevel": "Secure Sell",
+                                "LinkAvailability": "true",
+                                "PolledAvailabilityOption": "Cached status used. Polled avail exists",
+                                "OptionalServicesIndicator": "false",
+                                "AvailabilitySource": "Q",
+                                "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                            },
+                            "air:AirAvailInfo": [{
+                                "$": {
+                                    "ProviderCode": "1G"
+                                }
+                            }],
+                            "air:FlightDetailsRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAesIzOBAAAA=="
+                                }
+                            }]
+                        }
+                    ],
+                    [],
+                    [],
+                    []
+                ],
+                "fareList": [{
+                    "$": {
+                        "Key": "hjYrVHiYlDKAnsIzOBAAAA==",
+                        "FareBasis": "LF2PXOW",
+                        "PassengerTypeCode": "ADT",
+                        "Origin": "DAC",
+                        "Destination": "BCN",
+                        "EffectiveDate": "2020-05-06T01:03:00.000+06:00",
+                        "DepartureDate": "2020-06-20",
+                        "Amount": "BDT31575",
+                        "NegotiatedFare": "false",
+                        "NotValidBefore": "2020-06-20",
+                        "NotValidAfter": "2020-06-20"
+                    },
+                    "air:FareSurcharge": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKA0sIzOBAAAA==",
+                            "Type": "Other",
+                            "Amount": "NUC15.00"
+                        }
+                    }],
+                    "air:BaggageAllowance": [{
+                        "air:MaxWeight": [{
+                            "$": {
+                                "Value": "40",
+                                "Unit": "Kilograms"
+                            }
+                        }]
+                    }],
+                    "air:FareRuleKey": [{
+                        "_": "gws-eJxNjtEOgyAMRT/G3PdSQbI3HGCWzKAPmunL/v8zdsEtWZPS256mlxCCioo4ceE/Ory77YmyR6BAmfdY0A8iAsPuBJXFPOl6LC+0G4MKSWn0qqbtJR8dC7Kf7IVq4GxvGiNZ7x0XeNKgOqNKDvAT+UFZxrSt+bA0ppve9i8UD371A7QzK9w=",
+                        "$": {
+                            "FareInfoRef": "hjYrVHiYlDKAnsIzOBAAAA==",
+                            "ProviderCode": "1G"
+                        }
+                    }],
+                    "air:Brand": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKAttIzOBAAAA==",
+                            "BrandFound": "false",
+                            "UpSellBrandFound": "false"
+                        }
+                    }]
+                }]
+            },
+            {
+                "pricing": {
+                    "$": {
+                        "Key": "hjYrVHiYlDKA3sIzOBAAAA==",
+                        "TotalPrice": "BDT54433",
+                        "BasePrice": "USD375.00",
+                        "ApproximateTotalPrice": "BDT54433",
+                        "ApproximateBasePrice": "BDT31575",
+                        "EquivalentBasePrice": "BDT31575",
+                        "Taxes": "BDT22858",
+                        "ApproximateTaxes": "BDT22858"
+                    },
+                    "air:Journey": [{
+                        "$": {
+                            "TravelTime": "P0DT20H40M0S"
+                        },
+                        "air:AirSegmentRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAbsIzOBAAAA=="
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Key": "hjYrVHiYlDKA4sIzOBAAAA=="
+                                }
+                            }
+                        ]
+                    }],
+                    "air:LegRef": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKAfsIzOBAAAA=="
+                        }
+                    }],
+                    "air:AirPricingInfo": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKA6sIzOBAAAA==",
+                            "TotalPrice": "BDT54433",
+                            "BasePrice": "USD375.00",
+                            "ApproximateTotalPrice": "BDT54433",
+                            "ApproximateBasePrice": "BDT31575",
+                            "EquivalentBasePrice": "BDT31575",
+                            "Taxes": "BDT22858",
+                            "ApproximateTaxes": "BDT22858",
+                            "LatestTicketingTime": "2020-05-31",
+                            "PricingMethod": "Guaranteed",
+                            "Refundable": "true",
+                            "ETicketability": "Yes",
+                            "PlatingCarrier": "TK",
+                            "ProviderCode": "1G",
+                            "Cat35Indicator": "false"
+                        },
+                        "air:FareInfoRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAnsIzOBAAAA=="
+                            }
+                        }],
+                        "air:BookingInfo": [{
+                                "$": {
+                                    "BookingCode": "L",
+                                    "BookingCount": "9",
+                                    "CabinClass": "Economy",
+                                    "FareInfoRef": "hjYrVHiYlDKAnsIzOBAAAA==",
+                                    "SegmentRef": "hjYrVHiYlDKAbsIzOBAAAA=="
+                                }
+                            },
+                            {
+                                "$": {
+                                    "BookingCode": "L",
+                                    "BookingCount": "9",
+                                    "CabinClass": "Economy",
+                                    "FareInfoRef": "hjYrVHiYlDKAnsIzOBAAAA==",
+                                    "SegmentRef": "hjYrVHiYlDKA4sIzOBAAAA=="
+                                }
+                            }
+                        ],
+                        "air:TaxInfo": [{
+                                "$": {
+                                    "Category": "BD",
+                                    "Amount": "BDT500",
+                                    "Key": "hjYrVHiYlDKA7sIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "OW",
+                                    "Amount": "BDT3000",
+                                    "Key": "hjYrVHiYlDKA8sIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "UT",
+                                    "Amount": "BDT4000",
+                                    "Key": "hjYrVHiYlDKA9sIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "TR",
+                                    "Amount": "BDT463",
+                                    "Key": "hjYrVHiYlDKA-sIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "E5",
+                                    "Amount": "BDT75",
+                                    "Key": "hjYrVHiYlDKA/sIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "YR",
+                                    "Amount": "BDT14820",
+                                    "Key": "hjYrVHiYlDKAAtIzOBAAAAAA"
+                                }
+                            }
+                        ],
+                        "air:FareCalc": [
+                            "DAC TK X/IST TK BCN Q DACBCN15.00 360.00LF2PXOW NUC375.00END ROE1.0"
+                        ],
+                        "air:PassengerType": [{
+                            "$": {
+                                "Code": "ADT"
+                            }
+                        }],
+                        "air:ChangePenalty": [{
+                            "$": {
+                                "PenaltyApplies": "Anytime"
+                            },
+                            "air:Percentage": [
+                                "0.00"
+                            ]
+                        }],
+                        "air:CancelPenalty": [{
+                            "$": {
+                                "PenaltyApplies": "Before Departure"
+                            },
+                            "air:Amount": [
+                                "BDT10946"
+                            ]
+                        }]
+                    }],
+                    "air:Connection": [{
+                        "$": {
+                            "SegmentIndex": "0"
+                        }
+                    }]
+                },
+                "airSegment": [
+                  {
+                        "$": {
+                            "Key": "hjYrVHiYlDKAbsIzOBAAAA==",
+                            "Group": "0",
+                            "Carrier": "TK",
+                            "FlightNumber": "713",
+                            "Origin": "DAC",
+                            "Destination": "IST",
+                            "DepartureTime": "2020-06-20T06:25:00.000+06:00",
+                            "ArrivalTime": "2020-06-20T11:55:00.000+03:00",
+                            "FlightTime": "510",
+                            "Distance": "3698",
+                            "ETicketability": "Yes",
+                            "Equipment": "333",
+                            "ChangeOfPlane": "false",
+                            "ParticipantLevel": "Secure Sell",
+                            "LinkAvailability": "true",
+                            "PolledAvailabilityOption": "Cached status used. Polled avail exists",
+                            "OptionalServicesIndicator": "false",
+                            "AvailabilitySource": "Q",
+                            "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                        },
+                        "air:AirAvailInfo": [{
+                            "$": {
+                                "ProviderCode": "1G"
+                            }
+                        }],
+                        "air:FlightDetailsRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAcsIzOBAAAA=="
+                            }
+                        }]
+                    },
+                  {
+                        "$": {
+                            "Key": "hjYrVHiYlDKA4sIzOBAAAA==",
+                            "Group": "0",
+                            "Carrier": "TK",
+                            "FlightNumber": "1851",
+                            "Origin": "IST",
+                            "Destination": "BCN",
+                            "DepartureTime": "2020-06-20T20:15:00.000+03:00",
+                            "ArrivalTime": "2020-06-20T23:05:00.000+02:00",
+                            "FlightTime": "230",
+                            "Distance": "1392",
+                            "ETicketability": "Yes",
+                            "Equipment": "32B",
+                            "ChangeOfPlane": "false",
+                            "ParticipantLevel": "Secure Sell",
+                            "LinkAvailability": "true",
+                            "PolledAvailabilityOption": "Cached status used. Polled avail exists",
+                            "OptionalServicesIndicator": "false",
+                            "AvailabilitySource": "Q",
+                            "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                        },
+                        "air:AirAvailInfo": [{
+                            "$": {
+                                "ProviderCode": "1G"
+                            }
+                        }],
+                        "air:FlightDetailsRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKA5sIzOBAAAA=="
+                            }
+                        }]
+                    }
+                ],
+                "airSegmentGroup": [
+                    [
+                      {
+                            "$": {
+                                "Key": "hjYrVHiYlDKAbsIzOBAAAA==",
+                                "Group": "0",
+                                "Carrier": "TK",
+                                "FlightNumber": "713",
+                                "Origin": "DAC",
+                                "Destination": "IST",
+                                "DepartureTime": "2020-06-20T06:25:00.000+06:00",
+                                "ArrivalTime": "2020-06-20T11:55:00.000+03:00",
+                                "FlightTime": "510",
+                                "Distance": "3698",
+                                "ETicketability": "Yes",
+                                "Equipment": "333",
+                                "ChangeOfPlane": "false",
+                                "ParticipantLevel": "Secure Sell",
+                                "LinkAvailability": "true",
+                                "PolledAvailabilityOption": "Cached status used. Polled avail exists",
+                                "OptionalServicesIndicator": "false",
+                                "AvailabilitySource": "Q",
+                                "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                            },
+                            "air:AirAvailInfo": [{
+                                "$": {
+                                    "ProviderCode": "1G"
+                                }
+                            }],
+                            "air:FlightDetailsRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAcsIzOBAAAA=="
+                                }
+                            }]
+                        },
+                      {
+                            "$": {
+                                "Key": "hjYrVHiYlDKA4sIzOBAAAA==",
+                                "Group": "0",
+                                "Carrier": "TK",
+                                "FlightNumber": "1851",
+                                "Origin": "IST",
+                                "Destination": "BCN",
+                                "DepartureTime": "2020-06-20T20:15:00.000+03:00",
+                                "ArrivalTime": "2020-06-20T23:05:00.000+02:00",
+                                "FlightTime": "230",
+                                "Distance": "1392",
+                                "ETicketability": "Yes",
+                                "Equipment": "32B",
+                                "ChangeOfPlane": "false",
+                                "ParticipantLevel": "Secure Sell",
+                                "LinkAvailability": "true",
+                                "PolledAvailabilityOption": "Cached status used. Polled avail exists",
+                                "OptionalServicesIndicator": "false",
+                                "AvailabilitySource": "Q",
+                                "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                            },
+                            "air:AirAvailInfo": [{
+                                "$": {
+                                    "ProviderCode": "1G"
+                                }
+                            }],
+                            "air:FlightDetailsRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKA5sIzOBAAAA=="
+                                }
+                            }]
+                        }
+                    ],
+                    [],
+                    [],
+                    []
+                ],
+                "fareList": [{
+                    "$": {
+                        "Key": "hjYrVHiYlDKAnsIzOBAAAA==",
+                        "FareBasis": "LF2PXOW",
+                        "PassengerTypeCode": "ADT",
+                        "Origin": "DAC",
+                        "Destination": "BCN",
+                        "EffectiveDate": "2020-05-06T01:03:00.000+06:00",
+                        "DepartureDate": "2020-06-20",
+                        "Amount": "BDT31575",
+                        "NegotiatedFare": "false",
+                        "NotValidBefore": "2020-06-20",
+                        "NotValidAfter": "2020-06-20"
+                    },
+                    "air:FareSurcharge": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKA0sIzOBAAAA==",
+                            "Type": "Other",
+                            "Amount": "NUC15.00"
+                        }
+                    }],
+                    "air:BaggageAllowance": [{
+                        "air:MaxWeight": [{
+                            "$": {
+                                "Value": "40",
+                                "Unit": "Kilograms"
+                            }
+                        }]
+                    }],
+                    "air:FareRuleKey": [{
+                        "_": "gws-eJxNjtEOgyAMRT/G3PdSQbI3HGCWzKAPmunL/v8zdsEtWZPS256mlxCCioo4ceE/Ory77YmyR6BAmfdY0A8iAsPuBJXFPOl6LC+0G4MKSWn0qqbtJR8dC7Kf7IVq4GxvGiNZ7x0XeNKgOqNKDvAT+UFZxrSt+bA0ppve9i8UD371A7QzK9w=",
+                        "$": {
+                            "FareInfoRef": "hjYrVHiYlDKAnsIzOBAAAA==",
+                            "ProviderCode": "1G"
+                        }
+                    }],
+                    "air:Brand": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKAttIzOBAAAA==",
+                            "BrandFound": "false",
+                            "UpSellBrandFound": "false"
+                        }
+                    }]
+                }]
+            },
+            {
+                "pricing": {
+                    "$": {
+                        "Key": "hjYrVHiYlDKADtIzOBAAAA==",
+                        "TotalPrice": "BDT55635",
+                        "BasePrice": "USD375.00",
+                        "ApproximateTotalPrice": "BDT55635",
+                        "ApproximateBasePrice": "BDT31575",
+                        "EquivalentBasePrice": "BDT31575",
+                        "Taxes": "BDT24060",
+                        "ApproximateTaxes": "BDT24060"
+                    },
+                    "air:Journey": [{
+                        "$": {
+                            "TravelTime": "P1DT9H55M0S"
+                        },
+                        "air:AirSegmentRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAbsIzOBAAAA=="
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAysIzOBAAAA=="
+                                }
+                            }
+                        ]
+                    }],
+                    "air:LegRef": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKAfsIzOBAAAA=="
+                        }
+                    }],
+                    "air:AirPricingInfo": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKAosIzOBAAAA==",
+                            "TotalPrice": "BDT55635",
+                            "BasePrice": "USD375.00",
+                            "ApproximateTotalPrice": "BDT55635",
+                            "ApproximateBasePrice": "BDT31575",
+                            "EquivalentBasePrice": "BDT31575",
+                            "Taxes": "BDT24060",
+                            "ApproximateTaxes": "BDT24060",
+                            "LatestTicketingTime": "2020-05-31",
+                            "PricingMethod": "Guaranteed",
+                            "Refundable": "true",
+                            "ETicketability": "Yes",
+                            "PlatingCarrier": "TK",
+                            "ProviderCode": "1G",
+                            "Cat35Indicator": "false"
+                        },
+                        "air:FareInfoRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAnsIzOBAAAA=="
+                            }
+                        }],
+                        "air:BookingInfo": [{
+                                "$": {
+                                    "BookingCode": "L",
+                                    "BookingCount": "9",
+                                    "CabinClass": "Economy",
+                                    "FareInfoRef": "hjYrVHiYlDKAnsIzOBAAAA==",
+                                    "SegmentRef": "hjYrVHiYlDKAbsIzOBAAAA=="
+                                }
+                            },
+                            {
+                                "$": {
+                                    "BookingCode": "L",
+                                    "BookingCount": "9",
+                                    "CabinClass": "Economy",
+                                    "FareInfoRef": "hjYrVHiYlDKAnsIzOBAAAA==",
+                                    "SegmentRef": "hjYrVHiYlDKAysIzOBAAAA=="
+                                }
+                            }
+                        ],
+                        "air:TaxInfo": [{
+                                "$": {
+                                    "Category": "BD",
+                                    "Amount": "BDT500",
+                                    "Key": "hjYrVHiYlDKApsIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "OW",
+                                    "Amount": "BDT3000",
+                                    "Key": "hjYrVHiYlDKAqsIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "UT",
+                                    "Amount": "BDT4000",
+                                    "Key": "hjYrVHiYlDKArsIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "M6",
+                                    "Amount": "BDT278",
+                                    "Key": "hjYrVHiYlDKAssIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "TR",
+                                    "Amount": "BDT1387",
+                                    "Key": "hjYrVHiYlDKAtsIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "E5",
+                                    "Amount": "BDT75",
+                                    "Key": "hjYrVHiYlDKAusIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "YR",
+                                    "Amount": "BDT14820",
+                                    "Key": "hjYrVHiYlDKAvsIzOBAAAAAA"
+                                }
+                            }
+                        ],
+                        "air:FareCalc": [
+                            "DAC TK X/IST TK BCN Q DACBCN15.00 360.00LF2PXOW NUC375.00END ROE1.0"
+                        ],
+                        "air:PassengerType": [{
+                            "$": {
+                                "Code": "ADT"
+                            }
+                        }],
+                        "air:ChangePenalty": [{
+                            "$": {
+                                "PenaltyApplies": "Anytime"
+                            },
+                            "air:Percentage": [
+                                "0.00"
+                            ]
+                        }],
+                        "air:CancelPenalty": [{
+                            "$": {
+                                "PenaltyApplies": "Before Departure"
+                            },
+                            "air:Amount": [
+                                "BDT10946"
+                            ]
+                        }]
+                    }],
+                    "air:Connection": [{
+                        "$": {
+                            "ChangeOfAirport": "true",
+                            "SegmentIndex": "0"
+                        }
+                    }]
+                },
+                "airSegment": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKAbsIzOBAAAA==",
+                            "Group": "0",
+                            "Carrier": "TK",
+                            "FlightNumber": "713",
+                            "Origin": "DAC",
+                            "Destination": "IST",
+                            "DepartureTime": "2020-06-20T06:25:00.000+06:00",
+                            "ArrivalTime": "2020-06-20T11:55:00.000+03:00",
+                            "FlightTime": "510",
+                            "Distance": "3698",
+                            "ETicketability": "Yes",
+                            "Equipment": "333",
+                            "ChangeOfPlane": "false",
+                            "ParticipantLevel": "Secure Sell",
+                            "LinkAvailability": "true",
+                            "PolledAvailabilityOption": "Cached status used. Polled avail exists",
+                            "OptionalServicesIndicator": "false",
+                            "AvailabilitySource": "Q",
+                            "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                        },
+                        "air:AirAvailInfo": [{
+                            "$": {
+                                "ProviderCode": "1G"
+                            }
+                        }],
+                        "air:FlightDetailsRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAcsIzOBAAAA=="
+                            }
+                        }]
+                    },
+                    {
+                        "$": {
+                            "Key": "hjYrVHiYlDKAysIzOBAAAA==",
+                            "Group": "0",
+                            "Carrier": "TK",
+                            "FlightNumber": "7712",
+                            "Origin": "SAW",
+                            "Destination": "BCN",
+                            "DepartureTime": "2020-06-21T09:35:00.000+03:00",
+                            "ArrivalTime": "2020-06-21T12:20:00.000+02:00",
+                            "FlightTime": "225",
+                            "Distance": "1392",
+                            "ETicketability": "Yes",
+                            "Equipment": "73H",
+                            "ChangeOfPlane": "false",
+                            "ParticipantLevel": "Secure Sell",
+                            "LinkAvailability": "true",
+                            "PolledAvailabilityOption": "Cached status used. Polled avail exists",
+                            "OptionalServicesIndicator": "false",
+                            "AvailabilitySource": "Q",
+                            "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                        },
+                        "air:CodeshareInfo": [
+                            "ANADOLUJET TRADEMARK OF TURKISH AIRLINES"
+                        ],
+                        "air:AirAvailInfo": [{
+                            "$": {
+                                "ProviderCode": "1G"
+                            }
+                        }],
+                        "air:FlightDetailsRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAzsIzOBAAAA=="
+                            }
+                        }]
+                    }
+                ],
+                "airSegmentGroup": [
+                    [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAbsIzOBAAAA==",
+                                "Group": "0",
+                                "Carrier": "TK",
+                                "FlightNumber": "713",
+                                "Origin": "DAC",
+                                "Destination": "IST",
+                                "DepartureTime": "2020-06-20T06:25:00.000+06:00",
+                                "ArrivalTime": "2020-06-20T11:55:00.000+03:00",
+                                "FlightTime": "510",
+                                "Distance": "3698",
+                                "ETicketability": "Yes",
+                                "Equipment": "333",
+                                "ChangeOfPlane": "false",
+                                "ParticipantLevel": "Secure Sell",
+                                "LinkAvailability": "true",
+                                "PolledAvailabilityOption": "Cached status used. Polled avail exists",
+                                "OptionalServicesIndicator": "false",
+                                "AvailabilitySource": "Q",
+                                "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                            },
+                            "air:AirAvailInfo": [{
+                                "$": {
+                                    "ProviderCode": "1G"
+                                }
+                            }],
+                            "air:FlightDetailsRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAcsIzOBAAAA=="
+                                }
+                            }]
+                        },
+                        {
+                            "$": {
+                                "Key": "hjYrVHiYlDKAysIzOBAAAA==",
+                                "Group": "0",
+                                "Carrier": "TK",
+                                "FlightNumber": "7712",
+                                "Origin": "SAW",
+                                "Destination": "BCN",
+                                "DepartureTime": "2020-06-21T09:35:00.000+03:00",
+                                "ArrivalTime": "2020-06-21T12:20:00.000+02:00",
+                                "FlightTime": "225",
+                                "Distance": "1392",
+                                "ETicketability": "Yes",
+                                "Equipment": "73H",
+                                "ChangeOfPlane": "false",
+                                "ParticipantLevel": "Secure Sell",
+                                "LinkAvailability": "true",
+                                "PolledAvailabilityOption": "Cached status used. Polled avail exists",
+                                "OptionalServicesIndicator": "false",
+                                "AvailabilitySource": "Q",
+                                "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                            },
+                            "air:CodeshareInfo": [
+                                "ANADOLUJET TRADEMARK OF TURKISH AIRLINES"
+                            ],
+                            "air:AirAvailInfo": [{
+                                "$": {
+                                    "ProviderCode": "1G"
+                                }
+                            }],
+                            "air:FlightDetailsRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAzsIzOBAAAA=="
+                                }
+                            }]
+                        }
+                    ],
+                    [],
+                    [],
+                    []
+                ],
+                "fareList": [{
+                    "$": {
+                        "Key": "hjYrVHiYlDKAnsIzOBAAAA==",
+                        "FareBasis": "LF2PXOW",
+                        "PassengerTypeCode": "ADT",
+                        "Origin": "DAC",
+                        "Destination": "BCN",
+                        "EffectiveDate": "2020-05-06T01:03:00.000+06:00",
+                        "DepartureDate": "2020-06-20",
+                        "Amount": "BDT31575",
+                        "NegotiatedFare": "false",
+                        "NotValidBefore": "2020-06-20",
+                        "NotValidAfter": "2020-06-20"
+                    },
+                    "air:FareSurcharge": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKA0sIzOBAAAA==",
+                            "Type": "Other",
+                            "Amount": "NUC15.00"
+                        }
+                    }],
+                    "air:BaggageAllowance": [{
+                        "air:MaxWeight": [{
+                            "$": {
+                                "Value": "40",
+                                "Unit": "Kilograms"
+                            }
+                        }]
+                    }],
+                    "air:FareRuleKey": [{
+                        "_": "gws-eJxNjtEOgyAMRT/G3PdSQbI3HGCWzKAPmunL/v8zdsEtWZPS256mlxCCioo4ceE/Ory77YmyR6BAmfdY0A8iAsPuBJXFPOl6LC+0G4MKSWn0qqbtJR8dC7Kf7IVq4GxvGiNZ7x0XeNKgOqNKDvAT+UFZxrSt+bA0ppve9i8UD371A7QzK9w=",
+                        "$": {
+                            "FareInfoRef": "hjYrVHiYlDKAnsIzOBAAAA==",
+                            "ProviderCode": "1G"
+                        }
+                    }],
+                    "air:Brand": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKAttIzOBAAAA==",
+                            "BrandFound": "false",
+                            "UpSellBrandFound": "false"
+                        }
+                    }]
+                }]
+            },
+            {
+                "pricing": {
+                    "$": {
+                        "Key": "hjYrVHiYlDKAEtIzOBAAAA==",
+                        "TotalPrice": "BDT182882",
+                        "BasePrice": "USD1989.00",
+                        "ApproximateTotalPrice": "BDT182882",
+                        "ApproximateBasePrice": "BDT167474",
+                        "EquivalentBasePrice": "BDT167474",
+                        "Taxes": "BDT15408",
+                        "ApproximateTaxes": "BDT15408"
+                    },
+                    "air:Journey": [{
+                        "$": {
+                            "TravelTime": "P0DT17H40M0S"
+                        },
+                        "air:AirSegmentRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAFtIzOBAAAA=="
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAHtIzOBAAAA=="
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAJtIzOBAAAA=="
+                                }
+                            }
+                        ]
+                    }],
+                    "air:LegRef": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKAfsIzOBAAAA=="
+                        }
+                    }],
+                    "air:AirPricingInfo": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKALtIzOBAAAA==",
+                            "TotalPrice": "BDT182882",
+                            "BasePrice": "USD1989.00",
+                            "ApproximateTotalPrice": "BDT182882",
+                            "ApproximateBasePrice": "BDT167474",
+                            "EquivalentBasePrice": "BDT167474",
+                            "Taxes": "BDT15408",
+                            "ApproximateTaxes": "BDT15408",
+                            "LatestTicketingTime": "2020-06-20",
+                            "PricingMethod": "Guaranteed",
+                            "Refundable": "true",
+                            "ETicketability": "Yes",
+                            "PlatingCarrier": "FZ",
+                            "ProviderCode": "1G",
+                            "Cat35Indicator": "false"
+                        },
+                        "air:FareInfoRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAWtIzOBAAAA=="
+                            }
+                        }],
+                        "air:BookingInfo": [{
+                                "$": {
+                                    "BookingCode": "V",
+                                    "BookingCount": "4",
+                                    "CabinClass": "Economy",
+                                    "FareInfoRef": "hjYrVHiYlDKAWtIzOBAAAA==",
+                                    "SegmentRef": "hjYrVHiYlDKAFtIzOBAAAA=="
+                                }
+                            },
+                            {
+                                "$": {
+                                    "BookingCode": "Y",
+                                    "BookingCount": "9",
+                                    "CabinClass": "Economy",
+                                    "FareInfoRef": "hjYrVHiYlDKAWtIzOBAAAA==",
+                                    "SegmentRef": "hjYrVHiYlDKAHtIzOBAAAA=="
+                                }
+                            },
+                            {
+                                "$": {
+                                    "BookingCode": "Y",
+                                    "BookingCount": "9",
+                                    "CabinClass": "Economy",
+                                    "FareInfoRef": "hjYrVHiYlDKAWtIzOBAAAA==",
+                                    "SegmentRef": "hjYrVHiYlDKAJtIzOBAAAA=="
+                                }
+                            }
+                        ],
+                        "air:TaxInfo": [{
+                                "$": {
+                                    "Category": "BD",
+                                    "Amount": "BDT500",
+                                    "Key": "hjYrVHiYlDKAMtIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "OW",
+                                    "Amount": "BDT3000",
+                                    "Key": "hjYrVHiYlDKANtIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "UT",
+                                    "Amount": "BDT4000",
+                                    "Key": "hjYrVHiYlDKAOtIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "F6",
+                                    "Amount": "BDT803",
+                                    "Key": "hjYrVHiYlDKAPtIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "ZR",
+                                    "Amount": "BDT115",
+                                    "Key": "hjYrVHiYlDKAQtIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "FR",
+                                    "Amount": "BDT433",
+                                    "Key": "hjYrVHiYlDKARtIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "QX",
+                                    "Amount": "BDT1009",
+                                    "Key": "hjYrVHiYlDKAStIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "E5",
+                                    "Amount": "BDT75",
+                                    "Key": "hjYrVHiYlDKATtIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "YQ",
+                                    "Amount": "BDT4210",
+                                    "Key": "hjYrVHiYlDKAUtIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "YR",
+                                    "Amount": "BDT1263",
+                                    "Key": "hjYrVHiYlDKAVtIzOBAAAAAA"
+                                }
+                            }
+                        ],
+                        "air:FareCalc": [
+                            "DAC FZ X/DXB AF X/PAR AF BCN M1989.00YS50BENN NUC1989.00END ROE1.0"
+                        ],
+                        "air:PassengerType": [{
+                            "$": {
+                                "Code": "ADT"
+                            }
+                        }],
+                        "air:ChangePenalty": [{
+                            "air:Percentage": [
+                                "0.00"
+                            ]
+                        }],
+                        "air:CancelPenalty": [{
+                            "air:Percentage": [
+                                "0.00"
+                            ]
+                        }]
+                    }],
+                    "air:Connection": [{
+                            "$": {
+                                "SegmentIndex": "0"
+                            }
+                        },
+                        {
+                            "$": {
+                                "SegmentIndex": "1"
+                            }
+                        }
+                    ]
+                },
+                "airSegment": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKAFtIzOBAAAA==",
+                            "Group": "0",
+                            "Carrier": "FZ",
+                            "FlightNumber": "6587",
+                            "Origin": "DAC",
+                            "Destination": "DXB",
+                            "DepartureTime": "2020-06-20T19:30:00.000+06:00",
+                            "ArrivalTime": "2020-06-20T22:30:00.000+04:00",
+                            "FlightTime": "300",
+                            "Distance": "2207",
+                            "ETicketability": "Yes",
+                            "Equipment": "77W",
+                            "ChangeOfPlane": "false",
+                            "ParticipantLevel": "Secure Sell",
+                            "LinkAvailability": "true",
+                            "PolledAvailabilityOption": "No polled avail exists",
+                            "OptionalServicesIndicator": "false",
+                            "AvailabilitySource": "A",
+                            "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                        },
+                        "air:CodeshareInfo": [{
+                            "_": "EMIRATES AIRLINES",
+                            "$": {
+                                "OperatingCarrier": "EK",
+                                "OperatingFlightNumber": "587"
+                            }
+                        }],
+                        "air:AirAvailInfo": [{
+                            "$": {
+                                "ProviderCode": "1G"
+                            }
+                        }],
+                        "air:FlightDetailsRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAGtIzOBAAAA=="
+                            }
+                        }]
+                    },
+                    {
+                        "$": {
+                            "Key": "hjYrVHiYlDKAHtIzOBAAAA==",
+                            "Group": "0",
+                            "Carrier": "AF",
+                            "FlightNumber": "655",
+                            "Origin": "DXB",
+                            "Destination": "CDG",
+                            "DepartureTime": "2020-06-21T00:40:00.000+04:00",
+                            "ArrivalTime": "2020-06-21T06:00:00.000+02:00",
+                            "FlightTime": "440",
+                            "Distance": "3254",
+                            "ETicketability": "Yes",
+                            "Equipment": "77W",
+                            "ChangeOfPlane": "false",
+                            "ParticipantLevel": "Secure Sell",
+                            "LinkAvailability": "true",
+                            "PolledAvailabilityOption": "Polled avail used",
+                            "OptionalServicesIndicator": "false",
+                            "AvailabilitySource": "S",
+                            "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                        },
+                        "air:AirAvailInfo": [{
+                            "$": {
+                                "ProviderCode": "1G"
+                            }
+                        }],
+                        "air:FlightDetailsRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAItIzOBAAAA=="
+                            }
+                        }]
+                    },
+                    {
+                        "$": {
+                            "Key": "hjYrVHiYlDKAJtIzOBAAAA==",
+                            "Group": "0",
+                            "Carrier": "AF",
+                            "FlightNumber": "1148",
+                            "Origin": "CDG",
+                            "Destination": "BCN",
+                            "DepartureTime": "2020-06-21T07:20:00.000+02:00",
+                            "ArrivalTime": "2020-06-21T09:10:00.000+02:00",
+                            "FlightTime": "110",
+                            "Distance": "533",
+                            "ETicketability": "Yes",
+                            "Equipment": "319",
+                            "ChangeOfPlane": "false",
+                            "ParticipantLevel": "Secure Sell",
+                            "LinkAvailability": "true",
+                            "PolledAvailabilityOption": "Polled avail used",
+                            "OptionalServicesIndicator": "false",
+                            "AvailabilitySource": "S",
+                            "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                        },
+                        "air:AirAvailInfo": [{
+                            "$": {
+                                "ProviderCode": "1G"
+                            }
+                        }],
+                        "air:FlightDetailsRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAKtIzOBAAAA=="
+                            }
+                        }]
+                    }
+                ],
+                "airSegmentGroup": [
+                    [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAFtIzOBAAAA==",
+                                "Group": "0",
+                                "Carrier": "FZ",
+                                "FlightNumber": "6587",
+                                "Origin": "DAC",
+                                "Destination": "DXB",
+                                "DepartureTime": "2020-06-20T19:30:00.000+06:00",
+                                "ArrivalTime": "2020-06-20T22:30:00.000+04:00",
+                                "FlightTime": "300",
+                                "Distance": "2207",
+                                "ETicketability": "Yes",
+                                "Equipment": "77W",
+                                "ChangeOfPlane": "false",
+                                "ParticipantLevel": "Secure Sell",
+                                "LinkAvailability": "true",
+                                "PolledAvailabilityOption": "No polled avail exists",
+                                "OptionalServicesIndicator": "false",
+                                "AvailabilitySource": "A",
+                                "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                            },
+                            "air:CodeshareInfo": [{
+                                "_": "EMIRATES AIRLINES",
+                                "$": {
+                                    "OperatingCarrier": "EK",
+                                    "OperatingFlightNumber": "587"
+                                }
+                            }],
+                            "air:AirAvailInfo": [{
+                                "$": {
+                                    "ProviderCode": "1G"
+                                }
+                            }],
+                            "air:FlightDetailsRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAGtIzOBAAAA=="
+                                }
+                            }]
+                        },
+                        {
+                            "$": {
+                                "Key": "hjYrVHiYlDKAHtIzOBAAAA==",
+                                "Group": "0",
+                                "Carrier": "AF",
+                                "FlightNumber": "655",
+                                "Origin": "DXB",
+                                "Destination": "CDG",
+                                "DepartureTime": "2020-06-21T00:40:00.000+04:00",
+                                "ArrivalTime": "2020-06-21T06:00:00.000+02:00",
+                                "FlightTime": "440",
+                                "Distance": "3254",
+                                "ETicketability": "Yes",
+                                "Equipment": "77W",
+                                "ChangeOfPlane": "false",
+                                "ParticipantLevel": "Secure Sell",
+                                "LinkAvailability": "true",
+                                "PolledAvailabilityOption": "Polled avail used",
+                                "OptionalServicesIndicator": "false",
+                                "AvailabilitySource": "S",
+                                "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                            },
+                            "air:AirAvailInfo": [{
+                                "$": {
+                                    "ProviderCode": "1G"
+                                }
+                            }],
+                            "air:FlightDetailsRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAItIzOBAAAA=="
+                                }
+                            }]
+                        },
+                        {
+                            "$": {
+                                "Key": "hjYrVHiYlDKAJtIzOBAAAA==",
+                                "Group": "0",
+                                "Carrier": "AF",
+                                "FlightNumber": "1148",
+                                "Origin": "CDG",
+                                "Destination": "BCN",
+                                "DepartureTime": "2020-06-21T07:20:00.000+02:00",
+                                "ArrivalTime": "2020-06-21T09:10:00.000+02:00",
+                                "FlightTime": "110",
+                                "Distance": "533",
+                                "ETicketability": "Yes",
+                                "Equipment": "319",
+                                "ChangeOfPlane": "false",
+                                "ParticipantLevel": "Secure Sell",
+                                "LinkAvailability": "true",
+                                "PolledAvailabilityOption": "Polled avail used",
+                                "OptionalServicesIndicator": "false",
+                                "AvailabilitySource": "S",
+                                "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                            },
+                            "air:AirAvailInfo": [{
+                                "$": {
+                                    "ProviderCode": "1G"
+                                }
+                            }],
+                            "air:FlightDetailsRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAKtIzOBAAAA=="
+                                }
+                            }]
+                        }
+                    ],
+                    [],
+                    [],
+                    []
+                ],
+                "fareList": [{
+                    "$": {
+                        "Key": "hjYrVHiYlDKAWtIzOBAAAA==",
+                        "FareBasis": "YS50BENN",
+                        "PassengerTypeCode": "ADT",
+                        "Origin": "DAC",
+                        "Destination": "BCN",
+                        "EffectiveDate": "2020-05-06T01:03:00.000+06:00",
+                        "DepartureDate": "2020-06-20",
+                        "Amount": "BDT167474",
+                        "NegotiatedFare": "false"
+                    },
+                    "air:BaggageAllowance": [{
+                        "air:MaxWeight": [{
+                            "$": {
+                                "Value": "30",
+                                "Unit": "Kilograms"
+                            }
+                        }]
+                    }],
+                    "air:FareRuleKey": [{
+                        "_": "gws-eJxNTjsOwyAUO0zk3ZAQhQ0CiTKkLG0HOvT+x6ghGWrpfW35vRCCpSUdXfjHgO8Qd5R3AgqsYk0Fxi+ehNFYQXJCfTquW5GkucyWokqnr2q6ME95VEEe03JRDag955jA21meBu32/kEbtBLovJ+wHWpLzK/HeR663Vgv29kaZQO9+wNf9iy7",
+                        "$": {
+                            "FareInfoRef": "hjYrVHiYlDKAWtIzOBAAAA==",
+                            "ProviderCode": "1G"
+                        }
+                    }]
+                }]
+            },
+            {
+                "pricing": {
+                    "$": {
+                        "Key": "hjYrVHiYlDKAqtIzOBAAAA==",
+                        "TotalPrice": "BDT182882",
+                        "BasePrice": "USD1989.00",
+                        "ApproximateTotalPrice": "BDT182882",
+                        "ApproximateBasePrice": "BDT167474",
+                        "EquivalentBasePrice": "BDT167474",
+                        "Taxes": "BDT15408",
+                        "ApproximateTaxes": "BDT15408"
+                    },
+                    "air:Journey": [{
+                        "$": {
+                            "TravelTime": "P0DT20H20M0S"
+                        },
+                        "air:AirSegmentRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAFtIzOBAAAA=="
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAHtIzOBAAAA=="
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAltIzOBAAAA=="
+                                }
+                            }
+                        ]
+                    }],
+                    "air:LegRef": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKAfsIzOBAAAA=="
+                        }
+                    }],
+                    "air:AirPricingInfo": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKAXtIzOBAAAA==",
+                            "TotalPrice": "BDT182882",
+                            "BasePrice": "USD1989.00",
+                            "ApproximateTotalPrice": "BDT182882",
+                            "ApproximateBasePrice": "BDT167474",
+                            "EquivalentBasePrice": "BDT167474",
+                            "Taxes": "BDT15408",
+                            "ApproximateTaxes": "BDT15408",
+                            "LatestTicketingTime": "2020-06-20",
+                            "PricingMethod": "Guaranteed",
+                            "Refundable": "true",
+                            "ETicketability": "Yes",
+                            "PlatingCarrier": "FZ",
+                            "ProviderCode": "1G",
+                            "Cat35Indicator": "false"
+                        },
+                        "air:FareInfoRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAWtIzOBAAAA=="
+                            }
+                        }],
+                        "air:BookingInfo": [{
+                                "$": {
+                                    "BookingCode": "V",
+                                    "BookingCount": "4",
+                                    "CabinClass": "Economy",
+                                    "FareInfoRef": "hjYrVHiYlDKAWtIzOBAAAA==",
+                                    "SegmentRef": "hjYrVHiYlDKAFtIzOBAAAA=="
+                                }
+                            },
+                            {
+                                "$": {
+                                    "BookingCode": "Y",
+                                    "BookingCount": "9",
+                                    "CabinClass": "Economy",
+                                    "FareInfoRef": "hjYrVHiYlDKAWtIzOBAAAA==",
+                                    "SegmentRef": "hjYrVHiYlDKAHtIzOBAAAA=="
+                                }
+                            },
+                            {
+                                "$": {
+                                    "BookingCode": "Y",
+                                    "BookingCount": "9",
+                                    "CabinClass": "Economy",
+                                    "FareInfoRef": "hjYrVHiYlDKAWtIzOBAAAA==",
+                                    "SegmentRef": "hjYrVHiYlDKAltIzOBAAAA=="
+                                }
+                            }
+                        ],
+                        "air:TaxInfo": [{
+                                "$": {
+                                    "Category": "BD",
+                                    "Amount": "BDT500",
+                                    "Key": "hjYrVHiYlDKAYtIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "OW",
+                                    "Amount": "BDT3000",
+                                    "Key": "hjYrVHiYlDKAZtIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "UT",
+                                    "Amount": "BDT4000",
+                                    "Key": "hjYrVHiYlDKAatIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "F6",
+                                    "Amount": "BDT803",
+                                    "Key": "hjYrVHiYlDKAbtIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "ZR",
+                                    "Amount": "BDT115",
+                                    "Key": "hjYrVHiYlDKActIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "FR",
+                                    "Amount": "BDT433",
+                                    "Key": "hjYrVHiYlDKAdtIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "QX",
+                                    "Amount": "BDT1009",
+                                    "Key": "hjYrVHiYlDKAetIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "E5",
+                                    "Amount": "BDT75",
+                                    "Key": "hjYrVHiYlDKAftIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "YQ",
+                                    "Amount": "BDT4210",
+                                    "Key": "hjYrVHiYlDKAgtIzOBAAAAAA"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "Category": "YR",
+                                    "Amount": "BDT1263",
+                                    "Key": "hjYrVHiYlDKAhtIzOBAAAAAA"
+                                }
+                            }
+                        ],
+                        "air:FareCalc": [
+                            "DAC FZ X/DXB AF X/PAR AF BCN M1989.00YS50BENN NUC1989.00END ROE1.0"
+                        ],
+                        "air:PassengerType": [{
+                            "$": {
+                                "Code": "ADT"
+                            }
+                        }],
+                        "air:ChangePenalty": [{
+                            "air:Percentage": [
+                                "0.00"
+                            ]
+                        }],
+                        "air:CancelPenalty": [{
+                            "air:Percentage": [
+                                "0.00"
+                            ]
+                        }]
+                    }],
+                    "air:Connection": [{
+                            "$": {
+                                "SegmentIndex": "0"
+                            }
+                        },
+                        {
+                            "$": {
+                                "SegmentIndex": "1"
+                            }
+                        }
+                    ]
+                },
+                "airSegment": [{
+                        "$": {
+                            "Key": "hjYrVHiYlDKAFtIzOBAAAA==",
+                            "Group": "0",
+                            "Carrier": "FZ",
+                            "FlightNumber": "6587",
+                            "Origin": "DAC",
+                            "Destination": "DXB",
+                            "DepartureTime": "2020-06-20T19:30:00.000+06:00",
+                            "ArrivalTime": "2020-06-20T22:30:00.000+04:00",
+                            "FlightTime": "300",
+                            "Distance": "2207",
+                            "ETicketability": "Yes",
+                            "Equipment": "77W",
+                            "ChangeOfPlane": "false",
+                            "ParticipantLevel": "Secure Sell",
+                            "LinkAvailability": "true",
+                            "PolledAvailabilityOption": "No polled avail exists",
+                            "OptionalServicesIndicator": "false",
+                            "AvailabilitySource": "A",
+                            "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                        },
+                        "air:CodeshareInfo": [{
+                            "_": "EMIRATES AIRLINES",
+                            "$": {
+                                "OperatingCarrier": "EK",
+                                "OperatingFlightNumber": "587"
+                            }
+                        }],
+                        "air:AirAvailInfo": [{
+                            "$": {
+                                "ProviderCode": "1G"
+                            }
+                        }],
+                        "air:FlightDetailsRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAGtIzOBAAAA=="
+                            }
+                        }]
+                    },
+                    {
+                        "$": {
+                            "Key": "hjYrVHiYlDKAHtIzOBAAAA==",
+                            "Group": "0",
+                            "Carrier": "AF",
+                            "FlightNumber": "655",
+                            "Origin": "DXB",
+                            "Destination": "CDG",
+                            "DepartureTime": "2020-06-21T00:40:00.000+04:00",
+                            "ArrivalTime": "2020-06-21T06:00:00.000+02:00",
+                            "FlightTime": "440",
+                            "Distance": "3254",
+                            "ETicketability": "Yes",
+                            "Equipment": "77W",
+                            "ChangeOfPlane": "false",
+                            "ParticipantLevel": "Secure Sell",
+                            "LinkAvailability": "true",
+                            "PolledAvailabilityOption": "Polled avail used",
+                            "OptionalServicesIndicator": "false",
+                            "AvailabilitySource": "S",
+                            "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                        },
+                        "air:AirAvailInfo": [{
+                            "$": {
+                                "ProviderCode": "1G"
+                            }
+                        }],
+                        "air:FlightDetailsRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAItIzOBAAAA=="
+                            }
+                        }]
+                    },
+                    {
+                        "$": {
+                            "Key": "hjYrVHiYlDKAltIzOBAAAA==",
+                            "Group": "0",
+                            "Carrier": "AF",
+                            "FlightNumber": "1348",
+                            "Origin": "CDG",
+                            "Destination": "BCN",
+                            "DepartureTime": "2020-06-21T10:05:00.000+02:00",
+                            "ArrivalTime": "2020-06-21T11:50:00.000+02:00",
+                            "FlightTime": "105",
+                            "Distance": "533",
+                            "ETicketability": "Yes",
+                            "Equipment": "320",
+                            "ChangeOfPlane": "false",
+                            "ParticipantLevel": "Secure Sell",
+                            "LinkAvailability": "true",
+                            "PolledAvailabilityOption": "Polled avail used",
+                            "OptionalServicesIndicator": "false",
+                            "AvailabilitySource": "S",
+                            "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                        },
+                        "air:AirAvailInfo": [{
+                            "$": {
+                                "ProviderCode": "1G"
+                            }
+                        }],
+                        "air:FlightDetailsRef": [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAmtIzOBAAAA=="
+                            }
+                        }]
+                    }
+                ],
+                "airSegmentGroup": [
+                    [{
+                            "$": {
+                                "Key": "hjYrVHiYlDKAFtIzOBAAAA==",
+                                "Group": "0",
+                                "Carrier": "FZ",
+                                "FlightNumber": "6587",
+                                "Origin": "DAC",
+                                "Destination": "DXB",
+                                "DepartureTime": "2020-06-20T19:30:00.000+06:00",
+                                "ArrivalTime": "2020-06-20T22:30:00.000+04:00",
+                                "FlightTime": "300",
+                                "Distance": "2207",
+                                "ETicketability": "Yes",
+                                "Equipment": "77W",
+                                "ChangeOfPlane": "false",
+                                "ParticipantLevel": "Secure Sell",
+                                "LinkAvailability": "true",
+                                "PolledAvailabilityOption": "No polled avail exists",
+                                "OptionalServicesIndicator": "false",
+                                "AvailabilitySource": "A",
+                                "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                            },
+                            "air:CodeshareInfo": [{
+                                "_": "EMIRATES AIRLINES",
+                                "$": {
+                                    "OperatingCarrier": "EK",
+                                    "OperatingFlightNumber": "587"
+                                }
+                            }],
+                            "air:AirAvailInfo": [{
+                                "$": {
+                                    "ProviderCode": "1G"
+                                }
+                            }],
+                            "air:FlightDetailsRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAGtIzOBAAAA=="
+                                }
+                            }]
+                        },
+                        {
+                            "$": {
+                                "Key": "hjYrVHiYlDKAHtIzOBAAAA==",
+                                "Group": "0",
+                                "Carrier": "AF",
+                                "FlightNumber": "655",
+                                "Origin": "DXB",
+                                "Destination": "CDG",
+                                "DepartureTime": "2020-06-21T00:40:00.000+04:00",
+                                "ArrivalTime": "2020-06-21T06:00:00.000+02:00",
+                                "FlightTime": "440",
+                                "Distance": "3254",
+                                "ETicketability": "Yes",
+                                "Equipment": "77W",
+                                "ChangeOfPlane": "false",
+                                "ParticipantLevel": "Secure Sell",
+                                "LinkAvailability": "true",
+                                "PolledAvailabilityOption": "Polled avail used",
+                                "OptionalServicesIndicator": "false",
+                                "AvailabilitySource": "S",
+                                "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                            },
+                            "air:AirAvailInfo": [{
+                                "$": {
+                                    "ProviderCode": "1G"
+                                }
+                            }],
+                            "air:FlightDetailsRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAItIzOBAAAA=="
+                                }
+                            }]
+                        },
+                        {
+                            "$": {
+                                "Key": "hjYrVHiYlDKAltIzOBAAAA==",
+                                "Group": "0",
+                                "Carrier": "AF",
+                                "FlightNumber": "1348",
+                                "Origin": "CDG",
+                                "Destination": "BCN",
+                                "DepartureTime": "2020-06-21T10:05:00.000+02:00",
+                                "ArrivalTime": "2020-06-21T11:50:00.000+02:00",
+                                "FlightTime": "105",
+                                "Distance": "533",
+                                "ETicketability": "Yes",
+                                "Equipment": "320",
+                                "ChangeOfPlane": "false",
+                                "ParticipantLevel": "Secure Sell",
+                                "LinkAvailability": "true",
+                                "PolledAvailabilityOption": "Polled avail used",
+                                "OptionalServicesIndicator": "false",
+                                "AvailabilitySource": "S",
+                                "AvailabilityDisplayType": "Fare Shop/Optimal Shop"
+                            },
+                            "air:AirAvailInfo": [{
+                                "$": {
+                                    "ProviderCode": "1G"
+                                }
+                            }],
+                            "air:FlightDetailsRef": [{
+                                "$": {
+                                    "Key": "hjYrVHiYlDKAmtIzOBAAAA=="
+                                }
+                            }]
+                        }
+                    ],
+                    [],
+                    [],
+                    []
+                ],
+                "fareList": [{
+                    "$": {
+                        "Key": "hjYrVHiYlDKAWtIzOBAAAA==",
+                        "FareBasis": "YS50BENN",
+                        "PassengerTypeCode": "ADT",
+                        "Origin": "DAC",
+                        "Destination": "BCN",
+                        "EffectiveDate": "2020-05-06T01:03:00.000+06:00",
+                        "DepartureDate": "2020-06-20",
+                        "Amount": "BDT167474",
+                        "NegotiatedFare": "false"
+                    },
+                    "air:BaggageAllowance": [{
+                        "air:MaxWeight": [{
+                            "$": {
+                                "Value": "30",
+                                "Unit": "Kilograms"
+                            }
+                        }]
+                    }],
+                    "air:FareRuleKey": [{
+                        "_": "gws-eJxNTjsOwyAUO0zk3ZAQhQ0CiTKkLG0HOvT+x6ghGWrpfW35vRCCpSUdXfjHgO8Qd5R3AgqsYk0Fxi+ehNFYQXJCfTquW5GkucyWokqnr2q6ME95VEEe03JRDag955jA21meBu32/kEbtBLovJ+wHWpLzK/HeR663Vgv29kaZQO9+wNf9iy7",
+                        "$": {
+                            "FareInfoRef": "hjYrVHiYlDKAWtIzOBAAAA==",
+                            "ProviderCode": "1G"
+                        }
+                    }]
+                }]
+            }
+        ]
+    }
+}
